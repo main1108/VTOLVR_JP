@@ -25,6 +25,6 @@ MainSite: https://wiki3.jp/VTOL_VR
 
 GitHub  : https://github.com/omiyama/VTOL_VR_JP
 
-~~Discord : https://discord.gg/abHTBGubxf ~~いつかは覚えていませんが過疎の末に削除されました
+Discord : https://discord.gg/abHTBGubxf
 
 
