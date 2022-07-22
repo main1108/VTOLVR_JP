@@ -9,7 +9,7 @@ AdjBackButton_954494,VR Interactable,Adjust Back,後ろへ
 AdjUpButton_956738,VR Interactable,Adjust Up,上へ
 AdjDownButton_955744,VR Interactable,Adjust Down,下へ
 ToggleAdjustJoyInteractable_952782,VR Interactable,Toggle Auto Adjust,位置の自動調整機能のON/OFF
-Text_955910,UI Text,AUTO,
+Text_955910,UI Text,AUTO,自動
 throttleInteractable_956892,VR Interactable,Throttle,スロットル
 ejectInteractable_952116,VR Interactable,Eject,緊急脱出
 ButtonText_952188,UI Text,"Recenter
@@ -26,7 +26,7 @@ ButtonText_953872,UI Text,Load,ロード
 ButtonText_955618,UI Text,Save,セーブ
 helmVisorInteractable_955814,VR Interactable,Visor,バイザー
 helmNVGInteractable_955816,VR Interactable,NVG,暗視装置
-PendingText_955728,UI Text,in progress...,
+PendingText_955728,UI Text,in progress...,進行中...
 CompleteText_953308,UI Text,COMPLETE,成功
 MissionText_954156,UI Text,"MISSION
 ",ミッション
@@ -200,7 +200,7 @@ DistModeLabel_954954,UI Text,Dist Units,距離単位
 SpeedModeLabel_955738,UI Text,Speed Units,速度単位
 BackText_954528,UI Text,BACK,戻る
 eqNameText_618502,UI Text,FUEL CONFIG,燃料設定
-BingoAdjustTitle_621278,UI Text,BINGO LEVEL,燃料警告レベル
+BingoAdjustTitle_621278,UI Text,BINGO LEVEL,燃料警告量
 eqNameText_620238,UI Text,ALTITUDE WARNINGS,高度警告
 title_620100,UI Text,MIN ALTITUDE,最低高度
 title_619128,UI Text,MAX ALTITUDE,最高高度

@@ -33,7 +33,7 @@ ButtonText_857740,UI Text,Load,ロード
 ButtonText_856918,UI Text,Save,セーブ
 helmVisorInteractable_857720,VR Interactable,Visor,バイザー
 helmNVGInteractable_856016,VR Interactable,NVG,暗視装置
-PendingText_857928,UI Text,in progress...,進行中
+PendingText_857928,UI Text,in progress...,進行中...
 CompleteText_856172,UI Text,COMPLETE,成功
 MissionText_855910,UI Text,"MISSION
 ",ミッション
@@ -186,7 +186,7 @@ SpeedModeLabel_955738,UI Text,Speed Units,速度単位
 eqNameText_702892,UI Text,FUEL CONFIG,燃料設定
 internalFuelText_-432922,Internal Fuel,INTERNAL,内部
 externalFuelText_701646,External fuel,EXTERNAL,外部
-BingoAdjustTitle_-439040,UI Text,BINGO LEVEL,燃料警告レベル
+BingoAdjustTitle_-439040,UI Text,BINGO LEVEL,燃料警告量
 eqNameText_701974,UI Text,ALTITUDE WARNINGS,高度警告
 title_702284,UI Text,MIN ALTITUDE,最低高度
 title_701018,UI Text,MAX ALTITUDE,最高高度

@@ -17,7 +17,7 @@ s_asmTmode_1,Antiship terminal guidance mode,SeaSkim,超低空飛行
 s_asmTmode_2,Antiship terminal guidance mode,SSEvasive,超低空回避
 s_asmTmode_3,Antiship terminal guidance mode,Popup,ポップアップ
 ASM-66LR_fullName,Full equip name of: ASM-66LR,ASM-66LR,
-ASM-66LR_description,Item description of: ASM-66LR,Active radar-guided surface to air missile. Equipped with first stage booster for extended range.,
+ASM-66LR_description,Item description of: ASM-66LR,Active radar-guided surface to air missile. Equipped with first stage booster for extended range.,アクティブレーダー誘導式の地対空ミサイル。 射程を伸ばすためにブースターが搭載されています。
 GBU-38 Bomb x3_fullName,Full equip name of: GBU-38 Bomb x3,GBU-38 Bomb x3,GBU-38 爆弾 x3
 GBU-38 Bomb x3_description,Item description of: GBU-38 Bomb x3,500lb GPS guided direct attack munition. It's a Mk.82 bomb with a guidance package strapped on.,500ポンドのGPS誘導爆弾。Mk.82爆弾に誘導アタッチメントを付けたものです。
 eqSublabel_GPS-BOMB,HUD sub-label of an equip,GPS BOMB,GPS 爆弾
@@ -29,7 +29,7 @@ s_gbu_mode_2,Targeting mode label for GPS bomb,DUMB,無誘導
 interactable_button_grip,,Grip,グリップ
 interactable_button_trigger,,Trigger,トリガー
 vehicleConfig_denyBusy,Denial message for vehicle configurator,BUSY: RELOADING,リロード中
-vehicleConfig_invalidReload,Denial message for vehicle configurator,Full reload will be over budget!,フルリロードすると予算オーバーになってしまいます！
+vehicleConfig_invalidReload,Denial message for vehicle configurator,Full reload will be over budget!,フルリロードすると予算オーバーになってしまいます!
 vehicleConfig_totalMass,,Total mass:,総重量：
 vehicleConfig_fuelKnob,,Set fuel,燃料設定
 vehicleConfig_flightCost,,Flight cost:,フライトコスト：
@@ -93,7 +93,7 @@ ASF-SRM x2_description,Item description of: ASF-SRM x2,A rack of two standard he
 RG25 Twin Revolving Cannons_fullName,Full equip name of: RG25 Twin Revolving Cannons,RG25 Twin Revolving Cannons,RG25 2連装ガトリング砲
 RG25 Twin Revolving Cannons_description,Item description of: RG25 Twin Revolving Cannons,Twin 25mm revolving cannons.,25mm2連装ガトリング砲
 AIM-7 SARH Missile_fullName,Full equip name of: AIM-7 SARH Missile,AIM-7 SARH Missile,AIM-7 SARH ミサイル
-AIM-7 SARH Missile_description,Item description of: AIM-7 SARH Missile,An older semi-active radar guided medium range air to air missile. The missile requires a radar lock from launch until impact.,古いセミアクティブレーダー誘導中距離空対空ミサイル。このミサイルは発射から命中まで目標をレーダーでロックオンしておく必要があります。
+AIM-7 SARH Missile_description,Item description of: AIM-7 SARH Missile,An older semi-active radar guided medium range air to air missile. The missile requires a radar lock from launch until impact.,古いセミアクティブレーダー誘導式中距離空対空ミサイル。このミサイルは発射から命中まで目標をレーダーでロックオンしておく必要があります。
 eqSublabel_SARH-AAM,HUD sub-label of an equip,SARH AAM,
 WR-25 Rocket Pod_fullName,Full equip name of: WR-25 Rocket Pod,WR-25 Rocket Pod,WR-25 ロケットポッド
 WR-25 Rocket Pod_description,Item description of: WR-25 Rocket Pod,A hexagonal pod carrying 25 unguided rockets.,25発の無誘導ロケットを搭載した六角形のポッド
@@ -200,7 +200,7 @@ tut:Hover Tutorial:HoldPos24,A tutorial label,Try to hold this position for a fe
 tut:Hover Tutorial:DescendTime25,A tutorial label,Now lets try to land.,さあ、着陸をしてみましょう
 tut:Hover Tutorial:Descend26,A tutorial label,Adjust throttle to slowly descend at about -6 m/s,スロットルを調整して、約-6m/sでゆっくりと降下してください
 tut:Hover Tutorial:PrepareForImpact27,A tutorial label,Throttle up to about -2 m/s,スロットルを調整して降下速度-2m/sにしてください
-tut:Hover Tutorial:PostLand28,A tutorial label,Throttle down!,スロットルを下げて！
+tut:Hover Tutorial:PostLand28,A tutorial label,Throttle down!,スロットルを下げて!
 tut:Hover Tutorial:Complete29,A tutorial label,Tutorial complete! Good job!,チュートリアル完了です。よくできましたね。
 4000L Fuel Drop Tank_fullName,Full equip name of: 4000L Fuel Drop Tank,4000L Fuel Drop Tank,4000L 増槽
 4000L Fuel Drop Tank_description,Item description of: 4000L Fuel Drop Tank,A 4000 liter detachable external fuel tank.,4000Lの投棄可能な外部燃料タンク。
@@ -214,18 +214,18 @@ eqSublabel_IR-AAM,HUD sub-label of an equip,IR AAM,
 GBU-38 Bomb x1_fullName,Full equip name of: GBU-38 Bomb x1,GBU-38 Bomb x1,GBU-38 爆弾 x1
 GBU-38 Bomb x1_description,Item description of: GBU-38 Bomb x1,500lb GPS guided direct attack munition. It's a Mk.82 bomb with a guidance package strapped on.,500ポンドのGPS誘導爆弾。Mk.82爆弾に誘導アタッチメントを付けたものです。
 menu_back,"General ""back"" button for menus.",Back,戻る
-mpmm_members,Title for multiplayer members management menu.,Members,
-mpmm_toggleMute,Toggle muting player voice,Toggle mute,
-mpmm_kick,Kick member button,Kick,
-mpmm_ban,Ban member button,Ban,
-mpmm_block,Block member button,Block,
-scrollbar,UI Scrollbar interactable,Scroll,
-okay,,Okay,
+mpmm_members,Title for multiplayer members management menu.,Members,メンバー
+mpmm_toggleMute,Toggle muting player voice,Toggle mute,ミュート切替
+mpmm_kick,Kick member button,Kick,キック
+mpmm_ban,Ban member button,Ban,Ban
+mpmm_block,Block member button,Block,ブロック
+scrollbar,UI Scrollbar interactable,Scroll,スクロール
+okay,,Okay,OK
 cancel,,Cancel,キャンセル
-mpmm_inviteMenuButton,Button to open the invite friends menu,Invite friends,
-mpmm_inviteFriendsTitle,Invite menu title,Invite friends,
-mpmm_invited,Label to show that a friend has been invited.,Invited,
-mpmm_invite,Button to invite this friend.,Invite,
+mpmm_inviteMenuButton,Button to open the invite friends menu,Invite friends,フレンドを招待
+mpmm_inviteFriendsTitle,Invite menu title,Invite friends,フレンドを招待
+mpmm_invited,Label to show that a friend has been invited.,Invited,招待しました。
+mpmm_invite,Button to invite this friend.,Invite,招待
 s_cms_rate_single,CMS release rate - single fire mode,Single,シングル
 s_cms_rMode_0,CMS release mode,Single Auto,シングル オート
 s_cms_rMode_1,CMS release mode,Single L,シングル 左
@@ -233,7 +233,7 @@ s_cms_rMode_2,CMS release mode,Single R,シングル 右
 s_cms_rMode_3,CMS release mode,Double,ダブル
 tutName_Getting Started,Name of a legacy tutorial objective,Getting Started,始めましょう
 tutDesc_Getting Started,Description of a legacy tutorial,Complete the intro tutorial.,入門編のチュートリアルを完了してください
-tut:Getting Started:Intro10,A tutorial label,Welcome to the AV-42C,AV-42Cへようこそ！
+tut:Getting Started:Intro10,A tutorial label,Welcome to the AV-42C,AV-42Cへようこそ!
 tut:Getting Started:Intro21,A tutorial label,"First, let's keep the bird from rolling away.","まずは、機体が転がって
 行かないようにしましょう。"
 tut:Getting Started:Brake Lock2,A tutorial label,Enable Brake Lock,ブレーキロックを有効にします
@@ -295,28 +295,28 @@ commReply_s_notAtRearmingStation,A text reply in the communications menu.,Not at
 commReply_s_turnOffEngines,A text reply in the communications menu.,Please turn off your engines.,エンジンを切ってください。
 commReply_s_disarmWeapons,A text reply in the communications menu.,Please disarm your weapon system.,武器システムをオフにしてください。
 commReply_s_unhookTailhook,A text reply in the communications menu.,Please disengage your arrestor hook.,アレスティングフックを収納してください。
-commReply_s_rearmPointOccupied,A text reply in the communications menu.,This station is occupied!,ここのステーションはいっぱいです！
+commReply_s_rearmPointOccupied,A text reply in the communications menu.,This station is occupied!,ここのステーションはいっぱいです!
 commReply_s_taxiToRearm,A text reply in the communications menu.,Please taxi to a rearming station.,再装備ステーションにタキシングしてください。
 commReply_s_wingmenBusy,A text reply in the communications menu.,Your wingmen are busy.,僚機は忙しいため応答できません。
 commReply_s_someWingmenBusy,A text reply in the communications menu.,Some of your wingmen are busy.,僚機は忙しいため応答できません。
 commReply_s_noWingmen,A text reply in the communications menu.,You have no wingmen.,僚機はいません。
 commReply_s_wingmenOrbiting,A text reply in the communications menu.,Wingmen orbiting here.,僚機は周回待機しています。
-commReply_s_wingmenEngaging,A text reply in the communications menu.,Wingmen engaging targets at will!,僚機は自由にターゲットを攻撃します！
-commReply_s_wingmenDisengaging,A text reply in the communications menu.,Wingmen disengaging from combat!,僚機は戦闘離脱しました！
+commReply_s_wingmenEngaging,A text reply in the communications menu.,Wingmen engaging targets at will!,僚機は自由にターゲットを攻撃します!
+commReply_s_wingmenDisengaging,A text reply in the communications menu.,Wingmen disengaging from combat!,僚機は戦闘離脱しました!
 commReply_s_wingmenFormationSpread,A text reply in the communications menu.,Wingmen setting formation spread.,僚機はフォーメーションの間隔を調整します。
 commReply_s_wingman,A text reply in the communications menu.,Wingman,僚機
-commReply_s_attackingTSD,A text reply in the communications menu.,attacking your TSD target!,TSDターゲットを攻撃します！
-commReply_s_attackingRadar,A text reply in the communications menu.,attacking your radar target!,レーダーターゲットを攻撃します！
-commReply_s_attackingTGP,A text reply in the communications menu.,attacking your TGP target!,TGPターゲットを攻撃します！
-commReply_s_attackingARAD,A text reply in the communications menu.,attacking your ARAD target!,ARADターゲットを攻撃します！
+commReply_s_attackingTSD,A text reply in the communications menu.,attacking your TSD target!,TSDターゲットを攻撃します!
+commReply_s_attackingRadar,A text reply in the communications menu.,attacking your radar target!,レーダーターゲットを攻撃します!
+commReply_s_attackingTGP,A text reply in the communications menu.,attacking your TGP target!,TGPターゲットを攻撃します!
+commReply_s_attackingARAD,A text reply in the communications menu.,attacking your ARAD target!,ARADターゲットを攻撃します!
 commReply_s_noWingmenForAttack,A text reply in the communications menu.,No wingmen available for attack.,攻撃可能な僚機がいません。
 commReply_s_noTarget,A text reply in the communications menu.,No target selected.,ターゲットが選択されていません。
 commReply_s_noAirfield,A text reply in the communications menu.,No airfield available.,利用可能な空港はありません。
 commReply_s_cancellingATC,A text reply in the communications menu.,Cancelling ATC request.,ATCリクエストをキャンセル
 commReply_s_acknowledged,A text reply in the communications menu.,Acknowledged,受信
-commReply_s_wingmenRTB,A text reply in the communications menu.,Your wingmen will RTB!,あなたの僚機はRTBします！
-commReply_s_clearedVerticalLanding,A text reply in the communications menu.,Cleared for vertical landing!,垂直着陸が可能です！
-commReply_s_clearedVerticalTakeoff,A text reply in the communications menu.,Cleared for vertical take off!,垂直離陸が可能です！
+commReply_s_wingmenRTB,A text reply in the communications menu.,Your wingmen will RTB!,あなたの僚機はRTBします!
+commReply_s_clearedVerticalLanding,A text reply in the communications menu.,Cleared for vertical landing!,垂直着陸が可能です!
+commReply_s_clearedVerticalTakeoff,A text reply in the communications menu.,Cleared for vertical take off!,垂直離陸が可能です!
 commReply_s_landingDenied,A text reply in the communications menu.,Landing denied!,着陸拒否されました!
 commReply_s_takeoffDenied,A text reply in the communications menu.,Take off denied!,離陸拒否されました!
 commReply_s_reply_noPrevAtc,A text reply in the communications menu.,No previously contacted ATC available.,以前に連絡を取ったATCは利用できません。
@@ -493,8 +493,8 @@ AV-42C_mfd_unitOptions:L3_tooltip,Tooltip for an MFD button.,Distance Units,距�
 AV-42C_mfd_unitOptions:L4_tooltip,Tooltip for an MFD button.,Speed Units,速度単位
 AV-42C_mfd_unitOptions:T5_tooltip,Tooltip for an MFD button.,Back,戻る
 AV-42C_mfd_fuelConfig:T5_tooltip,Tooltip for an MFD button.,Back,戻る
-AV-42C_mfd_fuelConfig:L4_tooltip,Tooltip for an MFD button.,Bingo Fuel +,最低燃料 +
-AV-42C_mfd_fuelConfig:L5_tooltip,Tooltip for an MFD button.,Bingo Fuel -,最低燃料 -
+AV-42C_mfd_fuelConfig:L4_tooltip,Tooltip for an MFD button.,Bingo Fuel +,燃料警告量 +
+AV-42C_mfd_fuelConfig:L5_tooltip,Tooltip for an MFD button.,Bingo Fuel -,燃料警告量 -
 altWarn_mode_radar,Radar altimeter mode for altitude warning settings.,RADAR,レーダー
 altWarn_mode_asl,Sea level/barometric altimeter mode for altitude warning settings.,ASL,海抜
 AV-42C_mfd_altitudeSettings:T5_tooltip,Tooltip for an MFD button.,Back,戻る
@@ -545,7 +545,7 @@ AV-42C_mfd_target:T5_tooltip,Tooltip for an MFD button.,Toggle Sensor of Interes
 AV-42C_mfd_target:B4_tooltip,Tooltip for an MFD button.,Toggle HMD View,HMD表示切替
 AV-42C_mfd_target:L4,Label for an MFD button (short!).,LIM,
 AV-42C_mfd_target:L4_tooltip,Tooltip for an MFD button.,Toggle Limits Overlay,リミットオーバーレイ切替
-AV-42C_mfd_target:R1,Label for an MFD button (short!).,MARK,
+AV-42C_mfd_target:R1,Label for an MFD button (short!).,MARK,マーク
 AV-42C_mfd_target:R1_tooltip,Tooltip for an MFD button.,Laser Marker,レーザーマーカー
 s_hmd,TGP page label,HMD,
 s_tgp_noLock,TGP page error,NO LOCK,ロックなし
@@ -789,7 +789,7 @@ AH-94_mfd_target:B4,Label for an MFD button (short!).,HMD,
 AH-94_mfd_target:B4_tooltip,Tooltip for an MFD button.,Toggle HMD View,HMDビュー切替
 AH-94_mfd_target:L4,Label for an MFD button (short!).,LIM,
 AH-94_mfd_target:L4_tooltip,Tooltip for an MFD button.,Toggle Limits Overlay,リミットオーバーレイ切替
-AH-94_mfd_target:B1,Label for an MFD button (short!).,MARK,
+AH-94_mfd_target:B1,Label for an MFD button (short!).,MARK,マーク
 AH-94_mfd_target:B1_tooltip,Tooltip for an MFD button.,Toggle Laser Marker,レーザーマーカー切替
 AH-94_mfd_map:T2,Label for an MFD button (short!).,GPS,
 AH-94_mfd_map:T2_tooltip,Tooltip for an MFD button.,GPS Targets,GPSターゲット
@@ -809,7 +809,7 @@ AH-94_mfd_map:L4,Label for an MFD button (short!).,FUEL,燃料
 AH-94_mfd_map:L4_tooltip,Tooltip for an MFD button.,Set Fuel Waypoint,給油ウェイポイントセット
 AH-94_mfd_map:L3,Label for an MFD button (short!).,RTB,
 AH-94_mfd_map:L3_tooltip,Tooltip for an MFD button.,Set Return to Base Waypoint,RTBウェイポイントセット
-AH-94_mfd_map:L2,Label for an MFD button (short!).,OBJ,
+AH-94_mfd_map:L2,Label for an MFD button (short!).,OBJ,目標
 AH-94_mfd_map:L2_tooltip,Tooltip for an MFD button.,Set Objective Waypoint,目標ウェイポイントセット
 AH-94_mfd_map:B1,Label for an MFD button (short!).,ALT-,高度-
 AH-94_mfd_map:B1_tooltip,Tooltip for an MFD button.,Lower Target Alt,目標高度を下げる
@@ -823,7 +823,7 @@ AH-94_mfd_radar:R2,Label for an MFD button (short!).,R-,
 AH-94_mfd_radar:R2_tooltip,Tooltip for an MFD button.,Range -,範囲 -
 AH-94_mfd_radar:B1,Label for an MFD button (short!).,PWR,電源
 AH-94_mfd_radar:B1_tooltip,Tooltip for an MFD button.,Radar Power,レーダー 電源
-AH-94_mfd_radar:B2,Label for an MFD button (short!).,UNLCK,
+AH-94_mfd_radar:B2,Label for an MFD button (short!).,UNLCK,アンロック
 AH-94_mfd_radar:B2_tooltip,Tooltip for an MFD button.,Unlock,アンロック
 AH-94_mfd_radar:T4,Label for an MFD button (short!).,SOI,
 AH-94_mfd_radar:T4_tooltip,Tooltip for an MFD button.,Sensor of Interest,この画面を操作対象にする
@@ -869,7 +869,7 @@ GBU-39 SD Bomb x3_description,Item description of: GBU-39 SD Bomb x3,GPS guided 
 tutName_Vertical Flight,Name of a legacy tutorial objective,Vertical Flight,垂直離着陸
 tutDesc_Vertical Flight,Description of a legacy tutorial,Complete the Vertical Flight tutorial.,垂直飛行のチュートリアルを完了してください
 tut:Vertical Flight:Intro10,A tutorial label,Welcome to the Vertical Flight autopilot training.,"垂直飛行オートパイロット
-訓練にようこそ！"
+訓練にようこそ!"
 tut:Vertical Flight:Intro21,A tutorial label,"Vertical flight can be tricky, but by using the AP, you will be a master in no time.","垂直飛行はトリッキーですが、
 オートパイロットを使うことで
 あっという間にマスターになります。"
@@ -917,11 +917,11 @@ tut:Vertical Flight:StudyMovement22,A tutorial label,"As you move around, study 
 勉強していきましょう。"
 tut:Vertical Flight:StartTargets23,A tutorial label,Let's try flying into some targets.,"いくつかのターゲットに向けて
 飛んでみましょう"
-tut:Vertical Flight:HoverWaypoint024,A tutorial label,Hover here!,ここまでホバー飛行してください！
-tut:Vertical Flight:HoverWaypoint125,A tutorial label,Hover here!,ここまでホバー飛行してください！
-tut:Vertical Flight:HoverWaypoint226,A tutorial label,Hover here!,ここまでホバー飛行してください！
-tut:Vertical Flight:HoverWaypoint327,A tutorial label,Hover here!,ここまでホバー飛行してください！
-tut:Vertical Flight:GoodJob28,A tutorial label,Great! Now lets try to land back on the helipad.,"いい感じです！
+tut:Vertical Flight:HoverWaypoint024,A tutorial label,Hover here!,ここまでホバー飛行してください!
+tut:Vertical Flight:HoverWaypoint125,A tutorial label,Hover here!,ここまでホバー飛行してください!
+tut:Vertical Flight:HoverWaypoint226,A tutorial label,Hover here!,ここまでホバー飛行してください!
+tut:Vertical Flight:HoverWaypoint327,A tutorial label,Hover here!,ここまでホバー飛行してください!
+tut:Vertical Flight:GoodJob28,A tutorial label,Great! Now lets try to land back on the helipad.,"いい感じです!
 今度はヘリポートに戻って
 垂直着陸してみましょう。"
 tut:Vertical Flight:StopBeforeLand29,A tutorial label,"Bring yourself to a stop by centering the throttle, and steering the stick in the opposite direction as your horizontal velocity indicator.","スロットルを中心にして、水平方向の
@@ -938,11 +938,11 @@ tut:Vertical Flight:AlmostLand32,A tutorial label,Slow your forward speed and ra
 うまく調整してください。"
 tut:Vertical Flight:Land33,A tutorial label,Adjust rate of descent to bring it down gently.,"緩やかに下りるように
 降下速度を調整してください。"
-tut:Vertical Flight:Touchdown34,A tutorial label,Touch down!  Throttle down and enable brake locks.,"タッチダウン！
+tut:Vertical Flight:Touchdown34,A tutorial label,Touch down!  Throttle down and enable brake locks.,"タッチダウン!
 スロットルを下げて、
 ブレーキロックをかけてください。"
 tut:Vertical Flight:Brake Locks35,A tutorial label,Enable brake lock.,ブレーキロックON
-tut:Vertical Flight:Congrats36,A tutorial label,Congratulations!  Next time: Manual vertical flight and transitioning.,"おめでとう！
+tut:Vertical Flight:Congrats36,A tutorial label,Congratulations!  Next time: Manual vertical flight and transitioning.,"おめでとう!
 次の機会に、マニュアル垂直飛行に
 移行してやってみましょう。"
 PGM-27 x19_fullName,Full equip name of: PGM-27 x19,PGM-27 x19,
@@ -1089,7 +1089,7 @@ GBU-38 Bomb x4_description,Item description of: GBU-38 Bomb x4,500lb GPS guided 
 tutName_Weapon Basics,Name of a legacy tutorial objective,Weapon Basics,武器の基礎知識
 tutDesc_Weapon Basics,Description of a legacy tutorial,Complete the tutorial.,チュートリアルを完了してください
 tut:Weapon Basics:Intro10,A tutorial label,Welcome to the basic weapons tutorial.,"「武器使用の基本」
-チュートリアルにようこそ！"
+チュートリアルにようこそ!"
 tut:Weapon Basics:Intro21,A tutorial label,"Today, we will be covering weapon configuration, target acquisition, and firing weapons.","今回は、武器の構成、ターゲット方法、
 武器の発射について解説します。"
 tut:Weapon Basics:Intro32,A tutorial label,Let's start by setting the MFDs to the pages we will use.,"まずは使用するページに
@@ -1186,7 +1186,7 @@ TGPのセンサーを目的のウェイポイントまで
 自動で移動させることができます。"
 tut:Weapon Basics:GunMission4 Start39,A tutorial label,Go ahead and destroy the tanks.,戦車を破壊しましょう。
 tut:Weapon Basics:GunMission40,A tutorial label,,
-tut:Weapon Basics:GoodJobGuns41,A tutorial label,Great job!  Now let's work with rockets.,"グッジョブ！
+tut:Weapon Basics:GoodJobGuns41,A tutorial label,Great job!  Now let's work with rockets.,"グッジョブ!
 次はロケット弾を使用します。"
 tut:Weapon Basics:SwitchToRockets42,A tutorial label,Switch to HYDRA70,"HYDRA70に
 切り替えてください。"
@@ -1211,7 +1211,7 @@ tut:Weapon Basics:TryRipple50,A tutorial label,Try setting the rockets to differ
 破壊してみてください。
 「SALVO」は同時発射弾数です。"
 tut:Weapon Basics:RocketMission51,A tutorial label,,
-tut:Weapon Basics:Well done52,A tutorial label,Well done! You've destroyed all of the targets.,"よくやった！
+tut:Weapon Basics:Well done52,A tutorial label,Well done! You've destroyed all of the targets.,"よくやった!
 目標を全て破壊しました。"
 tut:Weapon Basics:Conclusion53,A tutorial label,This concludes the basic weapons tutorial.,"これで基本的な武器の
 チュートリアルは終了です。"
@@ -1417,7 +1417,7 @@ F/A-26B_mfd_target:T5_tooltip,Tooltip for an MFD button.,Toggle Sensor of Intere
 F/A-26B_mfd_target:B4_tooltip,Tooltip for an MFD button.,Toggle HMD View,HMDビュー切替
 F/A-26B_mfd_target:L4,Label for an MFD button (short!).,LIM,
 F/A-26B_mfd_target:L4_tooltip,Tooltip for an MFD button.,Toggle Limits Overlay,リミットオーバーレイ切替
-F/A-26B_mfd_target:R1,Label for an MFD button (short!).,MARK,
+F/A-26B_mfd_target:R1,Label for an MFD button (short!).,MARK,マーク
 F/A-26B_mfd_target:R1_tooltip,Tooltip for an MFD button.,Laser Marker,レーザーマーカー
 F/A-26B_mfd_gameMenu:B2,Label for an MFD button (short!).,RESTART,リスタート
 F/A-26B_mfd_gameMenu:B2_tooltip,Tooltip for an MFD button.,Restart Mission,ミッションリスタート
@@ -1482,7 +1482,7 @@ eqSublabel_OPTICAL-BOMB-FAF,HUD sub-label of an equip,OPTICAL BOMB FAF,光学 �
 tutName_Basic Flight,Name of a legacy tutorial objective,Basic Flight,フライトの基本
 tutDesc_Basic Flight,Description of a legacy tutorial,Complete the tutorial.,チュートリアルを完了してください
 tut:Basic Flight:Intro10,A tutorial label,Welcome to the Basic Flight tutorial.,"フライトの基本
-チュートリアルにようこそ！"
+チュートリアルにようこそ!"
 tut:Basic Flight:Intro21,A tutorial label,We'll skip the start-up procedure now.,"今回スタートアップの
 手順は省略しています"
 tut:Basic Flight:Intro32,A tutorial label,"The main flight controls are the joystick and throttle.  You can grip them by holding the grip buttons, or toggle lock your hands to them by tapping the grip buttons.","機体の操縦は右手のジョイスティックと
@@ -1520,7 +1520,7 @@ tut:Basic Flight:ControlSpeed11,A tutorial label,Apply small amounts of throttle
 スピードをコントロールしましょう。"
 tut:Basic Flight:DriveToRamp12,A tutorial label,Drive over here!,ここまで来てください
 tut:Basic Flight:DriveToRamp213,A tutorial label,Drive over here!,ここまで来てください
-tut:Basic Flight:Fullstop14,A tutorial label,Full stop!  Throttle down and hold the throttle brake trigger.,"完全に停止してください！
+tut:Basic Flight:Fullstop14,A tutorial label,Full stop!  Throttle down and hold the throttle brake trigger.,"完全に停止してください!
 スロットルを下げて
 ブレーキをかけてください。"
 tut:Basic Flight:PrepareTakeoff15,A tutorial label,Let's prepare for a conventional take-off.,離陸の準備を行います
@@ -1537,16 +1537,16 @@ tut:Basic Flight:GrabThrottle220,A tutorial label,Now grab the throttle and hold
 tut:Basic Flight:Unlock Brakes21,A tutorial label,...so you can disable brake lock.,ブレーキロックを解除してください。
 tut:Basic Flight:TurnOntoRunway22,A tutorial label,Now turn left onto runway 20,"ランウェイ20に入り左に曲がって、
 機首を前方にまっすぐに揃えてください。"
-tut:Basic Flight:BeforeTakeoff23,A tutorial label,"Now.. to take off, raise the throttle to full and steer to keep aligned with the runway.","離陸します！
+tut:Basic Flight:BeforeTakeoff23,A tutorial label,"Now.. to take off, raise the throttle to full and steer to keep aligned with the runway.","離陸します!
 スロットルをフルに上げて、
 滑走路をまっすぐ走ってください。"
-tut:Basic Flight:WaitSpeed24,A tutorial label,Speed up to [80]! Straight down the runway!,"[80]に加速！
-滑走路を直進！"
+tut:Basic Flight:WaitSpeed24,A tutorial label,Speed up to [80]! Straight down the runway!,"[80]に加速!
+滑走路を直進!"
 tut:Basic Flight:Rotate!25,A tutorial label,Now carefully rotate the joystick back to pull the nose up!,"慎重にジョイスティックを
 後方（手前）に傾けて、
 機首を上に引き上げてください。"
-tut:Basic Flight:Liftoff!26,A tutorial label,"Great! You're in the air. ","いい感じです！
-離陸しました！"
+tut:Basic Flight:Liftoff!26,A tutorial label,"Great! You're in the air. ","いい感じです!
+離陸しました!"
 tut:Basic Flight:RaiseGear27,A tutorial label,Raise the landing gear.,ランディングギアを上げてください。
 tut:Basic Flight:RaiseFlaps28,A tutorial label,Set flaps to 0 (retracted),フラップを0に上げてください。
 tut:Basic Flight:GainAltitude29,A tutorial label,Now gently steer your nose to about 20 degrees and keep climbing to {1000} ASL.,"機首を約20度までゆっくり合わせて、
@@ -1561,8 +1561,8 @@ tut:Basic Flight:VelVector33,A tutorial label,"This is your velocity vector, sho
 機体の移動方向を示します。"
 tut:Basic Flight:VelVector234,A tutorial label,You want to steer velocity vector towards where you want to go.,"速度ベクトルを目的地に合わせるように
 操縦することで目的地に向かって飛行します。"
-tut:Basic Flight:FlyToTarget135,A tutorial label,Fly over here!,ここまで来てください！
-tut:Basic Flight:FlyToTarget236,A tutorial label,Fly over here!,ここまで来てください！
+tut:Basic Flight:FlyToTarget135,A tutorial label,Fly over here!,ここまで来てください!
+tut:Basic Flight:FlyToTarget236,A tutorial label,Fly over here!,ここまで来てください!
 tut:Basic Flight:Great Flying37,A tutorial label,Great flying! Now let's try to land at the airbase.,"素晴らしい操縦です。
 今度は飛行場に着陸してみましょう。"
 tut:Basic Flight:StartLanding38,A tutorial label,Start your landing here at about [150],"着陸はここから開始します。
@@ -1575,20 +1575,20 @@ tut:Basic Flight:Landing340,A tutorial label,"Flaps down, gear down.  Speed down
 ランディングギアも下げてください。
 速度を[80]まで下げてください。"
 tut:Basic Flight:Landing441,A tutorial label,Maintain speed and glide slope.  Keep the vector on target!,"速度とグライドスロープ（降下率）を維持します。
-目標に向かってまっすぐ入るよう維持してください！"
+目標に向かってまっすぐ入るよう維持してください!"
 tut:Basic Flight:PrepareToFlare42,A tutorial label,Prepare to flare nose up for a smooth landing,"スムーズな着陸のため、着地寸前に
 機首を少し上げてふわっと着地します。
 これをフレアと呼びます。"
 tut:Basic Flight:Flare43,A tutorial label," ",
-tut:Basic Flight:Touchdown44,A tutorial label,Touch down! Bring your nose down.,"タッチダウン！
-着陸しました！
+tut:Basic Flight:Touchdown44,A tutorial label,Touch down! Bring your nose down.,"タッチダウン!
+着陸しました!
 ゆっくりと機首を下げます。"
 tut:Basic Flight:Bring to stop.45,A tutorial label,"Steer down the runway, throttle down and carefully apply brakes.","前輪を滑走路につけます。
 スピードブレーキとフットブレーキを
 慎重にかけて減速。
 急激なブレーキは機体を暴れさせるので
 注意してください。"
-tut:Basic Flight:Done46,A tutorial label,Congratulations!  This concludes the basic flight tutorial.,"おめでとう！
+tut:Basic Flight:Done46,A tutorial label,Congratulations!  This concludes the basic flight tutorial.,"おめでとう!
 これでフライトの基本
 チュートリアルは終了です。
 次のチュートリアルに進んでください。"
@@ -1757,7 +1757,7 @@ av42cTheIsland_04_openWater_b1,Text from a mission briefing.,"The enemy force is
 
 Good luck.","小型無人艦やミサイル巡洋艦、無人戦闘機空母など、敵の勢力が多数確認されている。戦いは熾烈を極めるだろう。
 
-健闘を祈る！"
+健闘を祈る!"
 av42cTheIsland_05_silentIsland_b0,Text from a mission briefing.,"We received an encrypted message from the island airbase which suggested that a large presence was detected coming in from the north.
 
 After that, all communications went silent.","島の航空基地から暗号化されたメッセージが届いた。北から大量の敵軍が突然現れたとの報告だ。
@@ -1788,7 +1788,7 @@ Good luck.","作戦決行は深夜。敵の防空網をかいくぐるため、�
 
 敵は自走式対空ミサイル車両を追加配備している可能性がある、ミサイル発射やレーダーロックオン警告に注意しろ。
 
-頼むぞ！"
+頼むぞ!"
 av42cTheIsland_07_islandDefense_b0,Text from a mission briefing.,"With the destruction of the enemy fleet's most powerful ship, we can begin an effort to take back the island.
 
 Through the night, the enemy has continued to deploy troops and set up defenses around the island.","敵艦隊最強の艦艇を破壊したら、すぐに島の奪還作戦を始める。
@@ -1862,7 +1862,7 @@ av42cQuickFlight_targetPractice_b0,Text from a mission briefing.,"There are mult
 
 Check the waypoints and information in the Objectives MFD page.","練習するための地上と空中のターゲットの複数のセットがあります。
 
-ナビゲーションポイントや具体的な情報は、MFD画面の「OBJ」ページで確認することができます。"
+ナビゲーションポイントや具体的な情報は、MFD画面の目標ページで確認することができます。"
 campaign_fa26bFreeFlight_name,Name of a campaign.,Quick Flight,クイックフライト
 campaign_fa26bFreeFlight_description,Description of a campaign.,Simple scenarios for the F/A-26B.,F/A-26Bのためのシンプルなシナリオ
 fa26bFreeFlight:26b_targetPractice2_name,Name of a mission.,Target Practice,射撃訓練
@@ -1887,7 +1887,7 @@ fa26bFreeFlight:2v2dogfight_description,Description of a mission.,Take on two en
 F/A-26B:fa26bFreeFlight:2v2dogfight:obj_0:name,A mission objective name,CAP,
 F/A-26B:fa26bFreeFlight:2v2dogfight:obj_0:info,Mission objective info.,Destroy the two enemy fighters.,2機の敵戦闘機を撃墜してください。
 F/A-26B:fa26bFreeFlight:2v2dogfight:obj_1:name,A mission objective name,Surprise,サプライズ
-F/A-26B:fa26bFreeFlight:2v2dogfight:obj_1:info,Mission objective info.,Surprise! More fighters to kill. Where will they come from?,サプライズ！敵戦闘機が増えた。どこから来たんだ？
+F/A-26B:fa26bFreeFlight:2v2dogfight:obj_1:info,Mission objective info.,Surprise! More fighters to kill. Where will they come from?,サプライズ!敵戦闘機が増えた。どこから来たんだ?
 F/A-26B:fa26bFreeFlight:2v2dogfight:obj_2:name,A mission objective name,Land,着陸
 F/A-26B:fa26bFreeFlight:2v2dogfight:obj_2:info,Mission objective info.,Land at the airbase.,航空基地に着陸してください。
 fa26bFreeFlight:carrierLandingPractice_name,Name of a mission.,Carrier Landing Practice,空母への着艦訓練
@@ -1934,10 +1934,10 @@ fa26bFreeFlight_freeFlight2_b0,Text from a mission briefing.,Just fly around and
 campaign_j4Campaign_name,Name of a campaign.,July 4,七月四日
 campaign_j4Campaign_description,Description of a campaign.,Enter description...,説明を入力...
 j4Campaign:j4_name,Name of a mission.,July 4th,七月四日
-j4Campaign:j4_description,Description of a mission.,Happy Independence day!,独立記念日おめでとう！
+j4Campaign:j4_description,Description of a mission.,Happy Independence day!,独立記念日おめでとう!
 F/A-26B:j4Campaign:j4:obj_0:name,A mission objective name,July 4,七月四日
 F/A-26B:j4Campaign:j4:obj_0:info,Mission objective info.,Defend the city from the enemy attack.,敵の攻撃から街を守ってください。
-j4Campaign_j4_b0,Text from a mission briefing.,Happy Independence day!,独立記念日おめでとう！
+j4Campaign_j4_b0,Text from a mission briefing.,Happy Independence day!,独立記念日おめでとう!
 j4Campaign_j4_b1,Text from a mission briefing.,"An unidentified flying object has been detected over the island.  It appears to be giving off the same signals as those recorded near the recent attacks on mainland cities, so we're assuming hostility.  Find it and destroy it at all cost.",島の上空にＵＦＯが出現しました。そこから発した信号は、先日の本土都市への攻撃の際に近くで記録されたものと同じだったようで、敵対的なものと判断しました。 発見して全力で破壊してください。
 campaign_fa26-opDesertCobra_name,Name of a campaign.,Operation: Desert Cobra,砂漠の毒蛇作戦
 campaign_fa26-opDesertCobra_description,Description of a campaign.,"A short campaign for the F/A-26B based around mountainous desert regions. ",山間部の砂漠地帯を舞台とするF/A-26B用の短いキャンペーン。
@@ -1952,7 +1952,7 @@ F/A-26B:fa26-opDesertCobra:mission1:obj_2:info,Mission objective info.,"Destroy 
 F/A-26B:fa26-opDesertCobra:mission1:obj_3:name,A mission objective name,Destroy Artillery,砲兵を排除
 F/A-26B:fa26-opDesertCobra:mission1:obj_3:info,Mission objective info.,Destroy the artillery unit before it does more damage to the depots.,航空基地の施設にこれ以上のダメージを与えられる前に、敵の砲兵部隊を排除してください。
 F/A-26B:fa26-opDesertCobra:mission1:obj_4:name,A mission objective name,RTB,
-F/A-26B:fa26-opDesertCobra:mission1:obj_4:info,Mission objective info.,Mission complete!  Land back at the airbase.,任務完了です！航空基地に着陸してください。
+F/A-26B:fa26-opDesertCobra:mission1:obj_4:info,Mission objective info.,Mission complete!  Land back at the airbase.,任務完了です!航空基地に着陸してください。
 F/A-26B:fa26-opDesertCobra:mission1:obj_5:name,A mission objective name,[Opt] Defend AWACs,[オプション] AWACSを守る
 F/A-26B:fa26-opDesertCobra:mission1:obj_5:info,Mission objective info.,Destroy the 2 fighters (ASF-58) before they can take down our AWACs.,こちらのAWACSが破壊される前に、2機の敵戦闘機（ASF-58）を撃墜してください。
 fa26-opDesertCobra:mission2_name,Name of a mission.,Retalliation,報復
@@ -1961,7 +1961,7 @@ fa26-opDesertCobra:mission2_description,Description of a mission.,Turn the table
 F/A-26B:fa26-opDesertCobra:mission2:obj_7:name,A mission objective name,Destroy Depots North,北の敵施設を破壊
 F/A-26B:fa26-opDesertCobra:mission2:obj_7:info,Mission objective info.,Destroy the enemy depots at the northern airbase.,北の敵航空基地にある貯蔵庫を破壊してください。
 F/A-26B:fa26-opDesertCobra:mission2:obj_4:name,A mission objective name,RTB,
-F/A-26B:fa26-opDesertCobra:mission2:obj_4:info,Mission objective info.,Mission complete!  Land back at the airbase.,任務完了！航空基地に着陸してください。
+F/A-26B:fa26-opDesertCobra:mission2:obj_4:info,Mission objective info.,Mission complete!  Land back at the airbase.,任務完了!航空基地に着陸してください。
 F/A-26B:fa26-opDesertCobra:mission2:obj_6:name,A mission objective name,Destroy Depots East,東の敵施設を破壊
 F/A-26B:fa26-opDesertCobra:mission2:obj_6:info,Mission objective info.,Destroy the enemy depots at the eastern airbase.,東の敵航空基地にある貯蔵庫を破壊してください。
 fa26-opDesertCobra:mission3_name,Name of a mission.,Strike on Naval Test Lake,海軍試験湖への攻撃
@@ -1970,7 +1970,7 @@ fa26-opDesertCobra:mission3_description,Description of a mission.,Escort a strik
 F/A-26B:fa26-opDesertCobra:mission3:obj_0:name,A mission objective name,Destroy Ships,敵艦艇を破壊
 F/A-26B:fa26-opDesertCobra:mission3:obj_0:info,Mission objective info.,SEAD & protect X-Ray while they complete anti-shipping mission.,X-Ray 攻撃部隊が敵艦艇を破壊する任務を完了するまでSEADと護衛を行ってください。
 F/A-26B:fa26-opDesertCobra:mission3:obj_1:name,A mission objective name,RTB,
-F/A-26B:fa26-opDesertCobra:mission3:obj_1:info,Mission objective info.,Mission complete! Return to base.,任務完了です！基地に戻ってください。
+F/A-26B:fa26-opDesertCobra:mission3:obj_1:info,Mission objective info.,Mission complete! Return to base.,任務完了です!基地に戻ってください。
 F/A-26B:fa26-opDesertCobra:mission3:obj_2:name,A mission objective name,Join Strikers,攻撃部隊に参加
 F/A-26B:fa26-opDesertCobra:mission3:obj_2:info,Mission objective info.,Join the group of Anti-Ship strikers.,敵艦艇への攻撃部隊に参加してください。
 F/A-26B:fa26-opDesertCobra:mission3:obj_3:name,A mission objective name,Assist Bomber,爆撃機の支援
@@ -2411,7 +2411,7 @@ F-45A:f45-quickFlight:45_BayAssault:obj_3:info,Mission objective info.,Find and 
 F-45A:f45-quickFlight:45_BayAssault:obj_4:name,A mission objective name,RTB,
 F-45A:f45-quickFlight:45_BayAssault:obj_4:info,Mission objective info.,Return to the assault carrier.,強襲揚陸艦に戻ってください。
 F-45A:f45-quickFlight:45_BayAssault:obj_5:name,A mission objective name,Protect Carriers,空母艦隊を守れ
-F-45A:f45-quickFlight:45_BayAssault:obj_5:info,Mission objective info.,Do not let the enemy destroy either of our carriers!,敵にどちらの空母も破壊されないようにしてください！
+F-45A:f45-quickFlight:45_BayAssault:obj_5:info,Mission objective info.,Do not let the enemy destroy either of our carriers!,敵にどちらの空母も破壊されないようにしてください!
 f45-quickFlight:45_carrierPractice_name,Name of a mission.,Carrier Landing Practice,空母への着艦訓練
 f45-quickFlight:45_carrierPractice_description,Description of a mission.,Practice arrested or vertical landings on a moving carrier.,"移動中の空母に通常着艦
 または垂直着艦の訓練をせよ"
@@ -2438,7 +2438,7 @@ f45-quickFlight_45_2StageAttack_b2,Text from a mission briefing.,"After clearing
 SEAD group Romeo will launch from the carrier to disable the SAM sites at Bravo.","敵戦闘機を一掃したら、FARPに着陸して装備を対空用に変更せよ。Bravo地点の航空基地から離陸する敵爆撃機を撃墜するために、別のF-45Aと合流せよ
 
 SEAD Romeo隊はBravo地点のSAMサイトを無力化するために空母から出発する"
-f45-quickFlight_45_2StageAttack_b3,Text from a mission briefing.,Destroy the two bombers from Bravo then return to carrier to complete the mission!,Bravo地点から離陸した爆撃機2機を撃破し、空母に戻ってミッションを完了せよ！
+f45-quickFlight_45_2StageAttack_b3,Text from a mission briefing.,Destroy the two bombers from Bravo then return to carrier to complete the mission!,Bravo地点から離陸した爆撃機2機を撃破し、空母に戻ってミッションを完了せよ!
 f45-quickFlight_45_BayAssault_b0,Text from a mission briefing.,"Complete all of the objectives, then return to the assault carrier.
 
 You can complete them in any order you choose.
@@ -2588,7 +2588,7 @@ Your job will be to clean up any targets that remain after the artillery barrage
 ah94-quickFlight_arcticAssault_b2,Text from a mission briefing.,"Once the main enemy battalion has been destroyed, we'll have you scout out and destroy a few other secondary targets to support our ground forces and clear the way for our bombers.",敵の主力大隊が破壊されたら、他の副次的な目標を偵察・破壊してもらい、地上部隊の支援と爆撃機のための道を確保してもらう。
 ah94-quickFlight_arcticAssault_b3,Text from a mission briefing.,Your role is crucial in this final push towards victory. Good luck!,この勝利への最後の追い込みには、あなたの役割が重要なのです。頑張ってください。
 ah94-quickFlight_flightPractice_b0,Text from a mission briefing.,Practice taking off and landing in various locations.,さまざまな場所で離着陸の練習をする。
-ah94-quickFlight_flightPractice_b1,Text from a mission briefing.,Just follow each waypoint. Can you make each landing smoother or more efficient than the last?,各ウェイポイントに従うだけです。それぞれの着陸をよりスムーズに、より効率的に行えるか？
+ah94-quickFlight_flightPractice_b1,Text from a mission briefing.,Just follow each waypoint. Can you make each landing smoother or more efficient than the last?,各ウェイポイントに従うだけです。それぞれの着陸をよりスムーズに、より効率的に行えるか?
 ah94-quickFlight_flightPractice_b2,Text from a mission briefing.,Finish the mission by landing on the moving cruiser's deck.,移動中の巡洋艦の甲板に着艦してミッションを終了させる。
 ah94-quickFlight_smallArms_b0,Text from a mission briefing.,"Welcome!
 
@@ -2773,7 +2773,7 @@ F/A-26B:quickMPFlights:45_pveStrike:obj_4:info,Mission objective info.,Destroy t
 quickMPFlights:airshowFreeflight_name,Name of a mission.,Free Flight / Airshow,フリーフライト/エアショー
 quickMPFlights:airshowFreeflight_description,Description of a mission.,"All vehicles, no weapons.",全ての車両、武器無し
 F/A-26B:quickMPFlights:airshowFreeflight:obj_0:name,A mission objective name,Free Flight,フリーフライト
-F/A-26B:quickMPFlights:airshowFreeflight:obj_0:info,Mission objective info.,Have fun! Be nice!,楽しみましょう！
+F/A-26B:quickMPFlights:airshowFreeflight:obj_0:info,Mission objective info.,Have fun! Be nice!,楽しみましょう!
 quickMPFlights:mp_navalMission_name,Name of a mission.,F/A-26B Naval Strike Mission,F/A-26B 海軍攻撃ミッション
 quickMPFlights:mp_navalMission_description,Description of a mission.,Fly strike missions off the Aircraft Carrier with your buddies.,仲間と一緒に空母からの攻撃作戦を決行しよう。
 F/A-26B:quickMPFlights:mp_navalMission:obj_1:name,A mission objective name,Hidden Bunkers,隠されたバンカー
@@ -2839,7 +2839,7 @@ AV-42C:mp_PVPScenarios:Capture the Flag:obj_3:info,Mission objective info.,Bring
 AV-42C:mp_PVPScenarios:Capture the Flag:obj_4:name,A mission objective name,Pickup 3,ピックアップ3
 AV-42C:mp_PVPScenarios:Capture the Flag:obj_4:info,Mission objective info.,Pick up the final soldier.,最後の兵士を拾う。
 AV-42C:mp_PVPScenarios:Capture the Flag:obj_5:name,A mission objective name,Bring it home! 3,帰還 3
-AV-42C:mp_PVPScenarios:Capture the Flag:obj_5:info,Mission objective info.,Bring the final soldier to homeplate!,最終兵をホームプレートに連れてこい！
+AV-42C:mp_PVPScenarios:Capture the Flag:obj_5:info,Mission objective info.,Bring the final soldier to homeplate!,最終兵をホームプレートに連れてこい!
 mp_PVPScenarios:mp_26bDogfightGuns_name,Name of a mission.,F/A-26B Dogfight (Guns Only),F/A-26B ドッグファイト（機銃のみ）
 mp_PVPScenarios:mp_26bDogfightGuns_description,Description of a mission.,Quick dogfight match for F/A-26B. First team to 24 points wins!,F/A-26Bのクイックドッグファイトマッチ。 最初に24ポイントに到達したチームが勝利!
 F/A-26B:mp_PVPScenarios:mp_26bDogfightGuns:obj_0:name,A mission objective name,Dogfight,ドッグファイト
@@ -2861,10 +2861,10 @@ F/A-26B:mp_PVPScenarios:mp_pvpStrikeLowTech:obj_1:name,A mission objective name,
 F/A-26B:mp_PVPScenarios:mp_pvpStrikeLowTech:obj_1:info,Mission objective info.,Destroy tents and bunkers at Outpost A.,前哨基地Aのテントとバンカーを破壊せよ。
 F/A-26B:mp_PVPScenarios:mp_pvpStrikeLowTech:obj_2:name,A mission objective name,Outpost B Targets,前哨基地Bの目標
 F/A-26B:mp_PVPScenarios:mp_pvpStrikeLowTech:obj_2:info,Mission objective info.,Destroy tents and bunkers at Outpost B.,前哨基地Bのテントとバンカーを破壊せよ。
-mp_PVPScenarios_26b_bvrTest_b0,Text from a mission briefing.,Each team gets 4x F/A-26Bs and 2x F-45As. Try out some pure air combat!,各チームはF/A-26Bを4機、F-45Aを2機使用します。純粋な空中戦に挑戦してみよう！
+mp_PVPScenarios_26b_bvrTest_b0,Text from a mission briefing.,Each team gets 4x F/A-26Bs and 2x F-45As. Try out some pure air combat!,各チームはF/A-26Bを4機、F-45Aを2機使用します。純粋な空中戦に挑戦してみよう!
 mp_PVPScenarios_26b_bvrTest_b1,Text from a mission briefing.,"The bases are about 75 nautical miles apart, so you will be able to spread out and make use of BVR (beyond visual range) tactics.",基地は約75海里離れているので、分散してBVR（目視射程外）戦術を使うことができます。
 mp_PVPScenarios_26b_bvrTest_b2,Text from a mission briefing.,The first team to score 24 kills wins.,先に24キルを獲得したチームが勝ちとなる。
-mp_PVPScenarios_26b_dogfightGunsMissiles_b0,Text from a mission briefing.,You're in the merge!  Get ready for a fight!,マージの中にいるのか！？ 戦いの準備だ!
+mp_PVPScenarios_26b_dogfightGunsMissiles_b0,Text from a mission briefing.,You're in the merge!  Get ready for a fight!,マージの中にいるのか!? 戦いの準備だ!
 mp_PVPScenarios_26b_dogfightGunsMissiles_b1,Text from a mission briefing.,"Use your guns, missiles, and flares to achieve victory!",機銃やミサイル、フレアを駆使して勝利を目指せ!
 mp_PVPScenarios_42c_deathmatch_b0,Text from a mission briefing.,This is just a test scenario for the AV-42C.,これはあくまでAV-42Cのテストシナリオです。
 mp_PVPScenarios_42c_deathmatch_b1,Text from a mission briefing.,Shoot each other... for science!,撃ち合え... 科学のために!
@@ -3099,7 +3099,7 @@ Your job will be to clean up any targets that remain after the artillery barrage
 ah94-quickFlight_mp_arcticAssault_b2,Text from a mission briefing.,"Once the main enemy battalion has been destroyed, we'll have you scout out and destroy a few other secondary targets to support our ground forces and clear the way for our bombers.",敵の主力大隊が破壊されたら、他の副次的な目標を偵察・破壊してもらい、地上部隊の支援と爆撃機のための道を確保してもらう。
 ah94-quickFlight_mp_arcticAssault_b3,Text from a mission briefing.,Your role is crucial in this final push towards victory. Good luck!,この勝利への最後の追い込みは、あなたの役割が重要なのです。頑張ってください。
 ah94-quickFlight_mp_flightPractice_b0,Text from a mission briefing.,Practice taking off and landing in various locations.,さまざまな場所で離着陸の練習をする。
-ah94-quickFlight_mp_flightPractice_b1,Text from a mission briefing.,Just follow each waypoint. Can you make each landing smoother or more efficient than the last?,各ウェイポイントに従うだけです。それぞれの着陸をよりスムーズに、より効率的に行えるか？
+ah94-quickFlight_mp_flightPractice_b1,Text from a mission briefing.,Just follow each waypoint. Can you make each landing smoother or more efficient than the last?,各ウェイポイントに従うだけです。それぞれの着陸をよりスムーズに、より効率的に行えるか?
 ah94-quickFlight_mp_flightPractice_b2,Text from a mission briefing.,Finish the mission by landing on the moving cruiser's deck.,移動中の巡洋艦の甲板に着艦してミッションを終了させる。
 ah94-quickFlight_mp_smallArms_b0,Text from a mission briefing.,"Welcome!
 
@@ -3337,7 +3337,7 @@ av42c_tutorials:tut_av42c_agm:1042911135,Text from a tutorial.,Try shooting the 
 av42c_tutorials:tut_av42c_agm:1384660116,Text from a tutorial.,"Remember, you need to maintain line of sight with your TGP in order to guide the missile to the target","ターゲットにミサイルを導くために、
 TGPとの視線を維持する必要が
 あることを忘れないでください。"
-av42c_tutorials:tut_av42c_agm:1453428147,Text from a tutorial.,Great! Now switch to the AGM-65,"いいね！
+av42c_tutorials:tut_av42c_agm:1453428147,Text from a tutorial.,Great! Now switch to the AGM-65,"いいね!
 今度はAGM-65に
 切り替えてください。"
 av42c_tutorials:tut_av42c_agm:-1735708293,Text from a tutorial.,"This is a larger, slightly heavier hitting anti-tank missile with a more advanced optical seeker","これは、より長く、やや重い打撃の
@@ -3438,7 +3438,7 @@ fa26b_tutorials:tut_26_radar:1341649093,Text from a tutorial.,The DLZ is display
 ミサイルは発射しなければなりません。"
 fa26b_tutorials:tut_26_radar:731572550,Text from a tutorial.,Try shooting down the target.,"ターゲットを
 撃ち落としてみてください。"
-fa26b_tutorials:tut_26_radar:-1955766950,Text from a tutorial.,Splash!  Good kill!,スプラッシュ！いいぞ！
+fa26b_tutorials:tut_26_radar:-1955766950,Text from a tutorial.,Splash!  Good kill!,スプラッシュ!いいぞ!
 fa26b_tutorials:tut_26_radar:1669702430,Text from a tutorial.,"By tracking multiple contacts, you can fire up to 4 AIM-120s on separate targets as long as you maintain line of sight with each of them","複数の目標を追跡することで、
 それぞれの目標で視線を維持して
 いる限り、4発までのATM-120を
@@ -3451,13 +3451,13 @@ fa26b_tutorials:tut_26_radar:1356151209,Text from a tutorial.,"When the AIM-120'
 fa26b_tutorials:tut_26_radar:-1605626095,Text from a tutorial.,"Now, try shooting down the rest of the enemy air targets.","さて、敵の航空目標の
 残り全機を撃墜してみてください。"
 fa26b_tutorials:tut_26_radar:797323745,Text from a tutorial.,Good job!,よくやった!
-fa26b_tutorials:tut_26_sead:-1145857779,Text from a tutorial.,Out of missiles!  You hit some of the targets though!,"ミサイルが切れました！
-何機かのターゲットを撃墜しました！"
-fa26b_tutorials:tut_26_sead:-2102549622,Text from a tutorial.,Out of missiles!  You didn't hit anything.  Want to try again?,"ミサイルが切れました！
+fa26b_tutorials:tut_26_sead:-1145857779,Text from a tutorial.,Out of missiles!  You hit some of the targets though!,"ミサイルが切れました!
+何機かのターゲットを撃墜しました!"
+fa26b_tutorials:tut_26_sead:-2102549622,Text from a tutorial.,Out of missiles!  You didn't hit anything.  Want to try again?,"ミサイルが切れました!
 一発も命中しませんでした。
-もう一度やってみませんか？"
+もう一度やってみませんか?"
 fa26b_tutorials:tut_26_sead:-292426932,Text from a tutorial.,Welcome to the SEAD tutorial!,"SEAD（敵防空網制圧任務）の
-チュートリアルにようこそ！"
+チュートリアルにようこそ!"
 fa26b_tutorials:tut_26_sead:47968318,Text from a tutorial.,SEAD stands for Suppression of Enemy Air Defenses,SEADは敵防空網の制圧任務を意味します。
 fa26b_tutorials:tut_26_sead:353600754,Text from a tutorial.,You will use a combination of radar detecting sensors and special weapons to disable SAM sites,"レーダー探知センサーと
 特殊武器を組み合わせて、
@@ -3505,7 +3505,7 @@ AGM-88の射程内に入ったら
 発射するだけです。"
 fa26b_tutorials:tut_26_sead:-1438673069,Text from a tutorial.,Try taking out the SAM radars using the AGM-88,"AGM-88を使って
 SAMレーダーを破壊してください。"
-fa26b_tutorials:tut_26_sead:951869715,Text from a tutorial.,Great!  This is the end of the SEAD tutorial.,"グッジョブです！
+fa26b_tutorials:tut_26_sead:951869715,Text from a tutorial.,Great!  This is the end of the SEAD tutorial.,"グッジョブです!
 チュートリアル完了です。"
 ah94-tutorials:ah94tut_intro:19422556,Text from a tutorial.,Welcome to the AH-94 Attack Helicopter,AH-94 攻撃ヘリにようこそ
 ah94-tutorials:ah94tut_intro:-376660370,Text from a tutorial.,"Don't worry about memorizing everything now.
@@ -3575,10 +3575,11 @@ ah94-tutorials:ah94tut_startup:815576579,Text from a tutorial.,Power Lever IDLE,
 ah94-tutorials:ah94tut_startup:937278904,Text from a tutorial.,The starter  will run the turbine up to about 30% and automatically shut itself off.,スターターはタービンを30％程度まで回し、自動的に停止します。
 ah94-tutorials:ah94tut_startup:1462518884,Text from a tutorial.,Starter Indicator,スターター表示機
 ah94-tutorials:ah94tut_startup:-808588756,Text from a tutorial.,Right Starter ON,ライトスターター ON
-ah94-tutorials:ah94tut_startup:368229976,Text from a tutorial.,"Great, now both engines are fired up and running stable at idle.",素晴らしい！これで両方のエンジンが起動し、アイドリングで安定した運転をするようになりました。
+ah94-tutorials:ah94tut_startup:368229976,Text from a tutorial.,"Great, now both engines are fired up and running stable at idle.",素晴らしい!これで両方のエンジンが起動し、アイドリングで安定した運転をするようになりました。
 ah94-tutorials:ah94tut_startup:1013008207,Text from a tutorial.,Power Lever FLIGHT,パワーレバー FLIGHT
 ah94-tutorials:ah94tut_startup:-440988520,Text from a tutorial.,Watch Rotor RPM,RPM確認
-ah94-tutorials:ah94tut_startup:-942756284,Text from a tutorial.,"You don't need to worry about applying the the proper throttle to maintain rotor RPM.","あまりRPMを気にする必要はありません。
+ah94-tutorials:ah94tut_startup:-942756284,Text from a tutorial.,"You don't need to worry about
+ applying the the proper throttle to maintain rotor RPM.","あまりRPMを気にする必要はありません。
  ロータースピードを維持するために適切なスロットルが適用されます。"
 ah94-tutorials:ah94tut_startup:963997311,Text from a tutorial.,Just leave the power lever in the flight position and the system handles it for you.,パワーレバーをフライトポジションにしておくだけで、システムが自動で処理してくれます。
 ah94-tutorials:ah94tut_startup:-1751880937,Text from a tutorial.,APU OFF,APU OFF
