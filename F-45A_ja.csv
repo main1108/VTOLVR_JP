@@ -19,6 +19,8 @@ save","クイック
 セーブ"
 ButtonText_915630,UI Text,Load,ロード
 ButtonText_913374,UI Text,Save,セーブ
+Label_280922,HUD Unit label (mach),M,
+Label_280582,HUD Unit label (g-force),G,
 helmVisorInteractable_913784,VR Interactable,Visor,バイザー
 helmNVGInteractable_916002,VR Interactable,NVG,暗視装置
 PendingText_912704,UI Text,in progress...,進行中
@@ -61,8 +63,6 @@ Text_912910,UI Text,[ COLLISION      WARNING ],[  警  告     衝  突  ]
 Text_915452,UI Text,[ STALL          WARNING ],[  警  告     失  速  ]
 Label_914952,UI Text,HDG,方位
 HudBrakeLock_912300,UI Text,[ BRAKE LOCK ],[ ブレーキロック ]
-Label_280582,HUD Unit label (g-force),G,
-Label_280922,HUD Unit label (mach),M,
 Text_913428,UI Text,-[ CHECK GEAR ]-,-[ ギアを確認 ]-
 Label_913926,UI Text,"HVR
 ALT","ホバー
@@ -228,7 +228,7 @@ armedInteractable_-50098,SMS equip arming button,Toggle Arming,武装の切り�
 jettisonText_152168,SMS equip jettison button,JETTISON,投棄
 jettisonInteractable_-49280,SMS equip jettison button,Toggle Jettison,投棄の切替
 eqNameText_413016,UI Text,"WEAPON BAY DOOR
-OVERRIDES","兵器倉 ドアオーバーライド"
+OVERRIDES",兵器倉 ドアオーバーライド
 SideBayLeftOverride_930680,VR Interactable,Toggle Bay Override,兵器倉オーバーライド切替
 optionLabel_929256,UI Text,SIDE BAY LEFT,側面倉左
 optionLabel_930046,UI Text,SIDE BAY RIGHT,側面倉右
@@ -280,10 +280,10 @@ GroupsDown_912348,VR Interactable,Next Group,次のグループ
 GroupsUp_915390,VR Interactable,Prev Group,前のグループ
 DelTgt_913348,delete gps target interactable tooltip,Delete Target,ターゲット削除
 DelTgt_txt_-102726,delete gps target button label,"DELETE
-TARGET","ﾀｰｹﾞｯﾄ削除"
+TARGET",ﾀｰｹﾞｯﾄ削除
 DelGrp_915250,delete gps group button tooltip,Delete Group,グループ削除
 DelGrp_txt_-103580,delete gps group button label,"DELETE
-GROUP","ｸﾞﾙｰﾌﾟ削除"
+GROUP",ｸﾞﾙｰﾌﾟ削除
 NewGrp_911746,new gps group button tooltip,New Group,新しいグループ
 NewGrp_txt_-104494,new gps group button label,"NEW
 GROUP","新しい
@@ -323,6 +323,56 @@ LIM Button_-7676696,VR Interactable,Toggle Limits Overlay,リミットオーバ�
 txt_409782,UI Text,LIM,
 MarkerButton_5516312,VR Interactable,Laser Marker,レーザーマーカー
 txt_5601166,Laser marker button text,MARK,マーク
+PrevPageButton_912958,VR Interactable,Prev Page,前のページ
+NextPageButton_915536,VR Interactable,Next Page,次のページ
+BackButton_393686,VR Interactable,Back,戻る
+txt_912290,UI Text,CANCEL,キャンセル
+Title_915426,UI Text,COMMS,通信
+Text_914552,UI Text,GAME MENU,ゲームメニュー
+Play Area Text_399346,UI Text,PLAY AREA,プレイエリア
+RecenterButton_913736,VR Interactable,Recenter Seat,シート位置リセット
+txt_913580,UI Text,RECENTER,リセンター
+txt_911972,UI Text,MISSION,ミッション
+txt_913088,UI Text,RESTART,ﾘｽﾀｰﾄ
+RestartButton_911636,VR Interactable,Quicksave Menu,クイックセーブメニュー
+txt_410560,UI Text,QUICKSAVE,ｸｲｯｸｾｰﾌﾞ
+ExitButton_912780,VR Interactable,Exit Mission,ミッション退出
+txt_916092,UI Text,EXIT,退出
+FlightLog Button_414124,VR Interactable,Flight Log,フライトログ
+txt_409254,UI Text,LOG,ログ
+PlayersButton_-29308950,VR Interactable,View Players,
+playerstxt_-29308946,UI Text,PLAYERS,
+NetworkButton_-29379578,VR Interactable,Network Analytics,
+txt_527716,UI Text,NETWORK,
+Text_916022,UI Text,"Sit comfortably
+and press
+[menu]
+to recenter","
+シートに快適になるよう座り
+VRコントローラーの
+[メニュー]ボタンを
+押すとリセットされます"
+txt_410172,UI Text,Save to disk,ディスクに保存
+saveText_-13568996,VR Interactable,Quicksave,クイックセーブ
+saveText_txt_-100236,quicksave button label,SAVE,セーブ
+availableLabel_956208,UI Text,"SAVES
+AVAILABLE:","セーブ
+使用残回数:"
+NoQsText_955496,UI Text,"QUICKSAVE
+NOT AVAILABLE","クイックセーブ
+使用不可"
+lastSaveLabel_954396,UI Text,Last Save:,最後のセーブ:
+loadText_-13568992,VR Interactable,Quickload,クイックロード
+loadText_txt_-101050,quickload button label,LOAD,ロード
+PlayersReturnButton_520924,VR Interactable,Return,
+txt_525336,UI Text,RETURN,
+ManagePlayersButton_521164,VR Interactable,Manage Players,
+txt_526582,UI Text,MANAGE,
+upArrow_527248,VR Interactable,Scroll Up,
+downArrow_521412,VR Interactable,Scroll Down,
+netAnalyticsTtle_-29380092,UI Text,vt net analytics,
+NetworkReturnButton_521328,VR Interactable,Return,
+txt_523966,UI Text,RETURN,
 ScaleButton_393616,VR Interactable,Zoom +,拡大
 ScaleButton (1)_410406,VR Interactable,Zoom -,縮小
 braLabel_916212,UI Text,"B
@@ -348,53 +398,13 @@ txt_412394,TSD HUD filter,GRND,地上
 HUDMissileButton_414516,VR Interactable,Show Missiles,ミサイル表示
 txt_412204,TSD HUD filter,MSSL,ミサイル
 HUDSettingsButton_414214,VR Interactable,HUD Settings,HUD設定
-txt_915874,UI Text,RESET,
+txt_915874,UI Text,HUD,
 typeText_913752,UI Text,GPS,
 braLabel_912824,UI Text,"B
 R",
 ResetViewButton_-34018362,VR Interactable,Reset View,
+txt_222022,UI Text,RESET,
 Subsized_915030,UI Text,TSD,
-PrevPageButton_912958,VR Interactable,Prev Page,前のページ
-NextPageButton_915536,VR Interactable,Next Page,次のページ
-BackButton_393686,VR Interactable,Back,戻る
-txt_912290,UI Text,CANCEL,キャンセル
-Title_915426,UI Text,COMMS,通信
-Text_914552,UI Text,GAME MENU,ゲームメニュー
-Play Area Text_399346,UI Text,PLAY AREA,プレイエリア
-RecenterButton_913736,VR Interactable,Recenter Seat,シート位置リセット
-txt_913580,UI Text,RECENTER,リセンター
-txt_911972,UI Text,MISSION,ミッション
-txt_913088,UI Text,NETWORK,ﾘｽﾀｰﾄ
-RestartButton_911636,VR Interactable,Quicksave Menu,クイックセーブメニュー
-txt_410560,UI Text,QUICKSAVE,ｸｲｯｸｾｰﾌﾞ
-ExitButton_912780,VR Interactable,Exit Mission,ミッション退出
-txt_916092,UI Text,EXIT,退出
-FlightLog Button_414124,VR Interactable,Flight Log,フライトログ
-txt_409254,UI Text,LOG,ログ
-Text_916022,UI Text,"Sit comfortably
-and press
-[menu]
-to recenter","
-シートに快適になるよう座り
-VRコントローラーの
-[メニュー]ボタンを
-押すとリセットされます"
-PlayersButton_-29308950,VR Interactable,View Players,
-playerstxt_-29308946,UI Text,PLAYERS,
-NetworkButton_-29379578,VR Interactable,Network Analytics,
-txt_410172,UI Text,Save to disk,ディスクに保存
-saveText_-13568996,VR Interactable,Quicksave,クイックセーブ
-saveText_txt_-100236,quicksave button label,SAVE,セーブ
-availableLabel_956208,UI Text,"SAVES
-AVAILABLE:","セーブ
-使用残回数:"
-NoQsText_955496,UI Text,"QUICKSAVE
-NOT AVAILABLE","クイックセーブ
-使用不可"
-lastSaveLabel_954396,UI Text,Last Save:,最後のセーブ:
-loadText_-13568992,VR Interactable,Quickload,クイックロード
-loadText_txt_-101050,quickload button label,LOAD,ロード
-netAnalyticsTtle_-29380092,UI Text,vt net analytics,
 MFD1PowerInteractable_912850,VR Interactable,MFD Power,MFD 電源
 MFDBrightnessKnob_916384,VR Interactable,MFD Brightness,MFD 輝度
 HMCSPowerInteractable_914036,VR Interactable,HMD Power,HMD 電源
@@ -407,16 +417,19 @@ visorButtonInteractable_-7865812,VR Interactable,Toggle Visor,バイザー切替
 nvgButtonInteractable_-7865816,VR Interactable,Toggle NVG,暗視装置切替
 clearButton_4853888,Clear joined/left notifications,Clear,
 info_userLeft,UI Text,has left!,退出しました!
-membersTitle_6548730,UI Text,Members,
+membersTitle_6548730,UI Text,Invite Friends,
 ToggleMute_-118434,VR Interactable,Toggle Mute,ミュート切替
 Kick_-113880,VR Interactable,Kick,
 kickText_-113882,UI Text,Kick,
-Ban_-116098,VR Interactable,Ban,
-banText_-116094,UI Text,Ban,
+Ban_-116098,VR Interactable,Block,
+banText_-116094,UI Text,Block,
 ScrollInteractable_-645206,VR Interactable,Scroll,スクロール
 ErrorOKButton_-8378960,VR Interactable,Okay,
 okText_-8378962,UI Text,Cancel,
 Deny_1950982,VR Interactable,Cancel,キャンセル
+Invite_-47166,VR Interactable,Invite,
+inviteText_-47202,UI Text,Invite,
+invitedText_-48900,UI Text,Invited,
 GearInteractable_911944,VR Interactable,Landing Gear,ランディングギア
 WingSwitchInteractable_915584,VR Interactable,Wing Fold,翼の折り畳み
 JettisonSwitchInteractable_916390,VR Interactable,Jettison Switch,投棄スイッチ

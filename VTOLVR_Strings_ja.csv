@@ -16,6 +16,8 @@ s_asmTmode_0,Antiship terminal guidance mode,Direct,ダイレクト
 s_asmTmode_1,Antiship terminal guidance mode,SeaSkim,超低空飛行
 s_asmTmode_2,Antiship terminal guidance mode,SSEvasive,超低空回避
 s_asmTmode_3,Antiship terminal guidance mode,Popup,ポップアップ
+ASM-66LR_fullName,Full equip name of: ASM-66LR,ASM-66LR,
+ASM-66LR_description,Item description of: ASM-66LR,Active radar-guided surface to air missile. Equipped with first stage booster for extended range.,
 GBU-38 Bomb x3_fullName,Full equip name of: GBU-38 Bomb x3,GBU-38 Bomb x3,GBU-38 爆弾 x3
 GBU-38 Bomb x3_description,Item description of: GBU-38 Bomb x3,500lb GPS guided direct attack munition. It's a Mk.82 bomb with a guidance package strapped on.,500ポンドのGPS誘導爆弾。Mk.82爆弾に誘導アタッチメントを付けたものです。
 eqSublabel_GPS-BOMB,HUD sub-label of an equip,GPS BOMB,GPS 爆弾
@@ -157,7 +159,7 @@ Improved maneuverability, range, and counter-countermeasure system.
 Advanced technology allows it to intercept incoming missiles.","推力偏向制御を搭載した短距離赤外線誘導式空対空ミサイル。
 機動性、射程、対妨害システムが向上。"
 AGM-145 Ballista x4_fullName,Full equip name of: AGM-145 Ballista x4,AGM-145 Ballista x4,AGM-145 バリスタ x4
-AGM-145 Ballista x4_description,Item description of: AGM-145 Ballista x4,"Small anti-tank missiles with advanced optics, ""fire and forget"", and smart self-targeting technology. Can be fired without line of sight to the designated target point, and will acquire hostile targets automatically.",高度な光学系、""撃ち放し""、インテリジェント・セルフターゲティング技術を搭載した4発の小型対戦車ミサイル。 ターゲットポイントを直接見ずに発射でき、敵のターゲットを自動的にロックすることができます。
+AGM-145 Ballista x4_description,Item description of: AGM-145 Ballista x4,"Small anti-tank missiles with advanced optics, ""fire and forget"", and smart self-targeting technology. Can be fired without line of sight to the designated target point, and will acquire hostile targets automatically.","高度な光学系、""""撃ち放し""""、インテリジェント・セルフターゲティング技術を搭載した4発の小型対戦車ミサイル。 ターゲットポイントを直接見ずに発射でき、敵のターゲットを自動的にロックすることができます。"
 eqSublabel_OPTICAL-FAF,HUD sub-label of an equip,OPTICAL FAF,光学 撃ち放し
 tutName_Hover Tutorial,Name of a legacy tutorial objective,Hover Tutorial,ホバリングのチュートリアル
 tutDesc_Hover Tutorial,Description of a legacy tutorial,Learn to hover.,ホバリングを覚えましょう
@@ -212,6 +214,18 @@ eqSublabel_IR-AAM,HUD sub-label of an equip,IR AAM,
 GBU-38 Bomb x1_fullName,Full equip name of: GBU-38 Bomb x1,GBU-38 Bomb x1,GBU-38 爆弾 x1
 GBU-38 Bomb x1_description,Item description of: GBU-38 Bomb x1,500lb GPS guided direct attack munition. It's a Mk.82 bomb with a guidance package strapped on.,500ポンドのGPS誘導爆弾。Mk.82爆弾に誘導アタッチメントを付けたものです。
 menu_back,"General ""back"" button for menus.",Back,戻る
+mpmm_members,Title for multiplayer members management menu.,Members,
+mpmm_toggleMute,Toggle muting player voice,Toggle mute,
+mpmm_kick,Kick member button,Kick,
+mpmm_ban,Ban member button,Ban,
+mpmm_block,Block member button,Block,
+scrollbar,UI Scrollbar interactable,Scroll,
+okay,,Okay,
+cancel,,Cancel,キャンセル
+mpmm_inviteMenuButton,Button to open the invite friends menu,Invite friends,
+mpmm_inviteFriendsTitle,Invite menu title,Invite friends,
+mpmm_invited,Label to show that a friend has been invited.,Invited,
+mpmm_invite,Button to invite this friend.,Invite,
 s_cms_rate_single,CMS release rate - single fire mode,Single,シングル
 s_cms_rMode_0,CMS release mode,Single Auto,シングル オート
 s_cms_rMode_1,CMS release mode,Single L,シングル 左
@@ -345,14 +359,13 @@ MFDOption:Wingmen,Label of an MFD option,Wingmen,僚機
 MFDOption:Ground,Label of an MFD option,Ground,グランド
 MFDOption:ATC,Label of an MFD option,ATC,
 MFDOption:AWACS,Label of an MFD option,AWACS,
-cancel,,Cancel,キャンセル
 next,,Next,次へ
 prev,,Prev,前へ
 ripple_single,Label when a rapid-fire weapon is set to only fire one shot at a time.,SINGLE,単発
 wmui_ripple,Option title for selecting a rocket/missile's ripple (rapid fire) rate.,RIPPLE,連射
 wmui_rippleTooltip,Tooltip for button to cycle a weapon's ripple (rapid fire) rate.,Cycle Ripple Rates,連射速度サイクル
-s_masterArmed,Master armed label in EQUIP MFD page,MASTER ARMED,武装  
-s_masterDisarmed,Master disarmed label in EQUIP MFD page,MASTER DISARMED,武装解除  
+s_masterArmed,Master armed label in EQUIP MFD page,MASTER ARMED,"武装  "
+s_masterDisarmed,Master disarmed label in EQUIP MFD page,MASTER DISARMED,"武装解除  "
 s_eq_armed,Armed label for single equip in EQUIP MFD page,ARMED,武装
 s_eq_disarmed,Disarmed label for single equip in EQUIP MFD page,DISARMED,武装解除
 s_eq_jettison,Jettison label for single equip in EQUIP MFD page,JETTISON,投棄
@@ -959,15 +972,17 @@ ASF-SRM x3_fullName,Full equip name of: ASF-SRM x3,ASF-SRM x3,
 ASF-SRM x3_description,Item description of: ASF-SRM x3,A rack of three standard heat-seeking anti-air missiles.,標準的な赤外線誘導式空対空ミサイル x3
 eqSublabel_LASER-BOMB-INTERNAL,HUD sub-label of an equip,LASER BOMB INTERNAL,レーザー 爆弾 内蔵
 AGM-145 Ballista x2_fullName,Full equip name of: AGM-145 Ballista x2,AGM-145 Ballista x2,AGM-145 バリスタ x2
-AGM-145 Ballista x2_description,Item description of: AGM-145 Ballista x2,"Small anti-tank missiles with advanced optics, ""fire and forget"", and smart self-targeting technology. Can be fired without line of sight to the designated target point, and will acquire hostile targets automatically.",高度な光学系、""撃ち放し""、インテリジェント・セルフターゲティング技術を搭載した小型対戦車ミサイル x2。 ターゲットポイントを直接見ずに発射でき、自動的に敵を狙うことができます。
+AGM-145 Ballista x2_description,Item description of: AGM-145 Ballista x2,"Small anti-tank missiles with advanced optics, ""fire and forget"", and smart self-targeting technology. Can be fired without line of sight to the designated target point, and will acquire hostile targets automatically.","高度な光学系、""""撃ち放し""""、インテリジェント・セルフターゲティング技術を搭載した小型対戦車ミサイル x2。 ターゲットポイントを直接見ずに発射でき、自動的に敵を狙うことができます。"
 AGM-188 MARM_fullName,Full equip name of: AGM-188 MARM,AGM-188 MARM,AGM-188 MARM
 AGM-188 MARM_description,Item description of: AGM-188 MARM,Medium range anti-radiation missile with a unique top down attack angle.,トップダウンの攻撃パターンが特徴的な中距離対レーダーミサイル
 ASRM-93 x2_fullName,Full equip name of: ASRM-93 x2,ASRM-93 x2,ASRM-93 x2
 ASRM-93 x2_description,Item description of: ASRM-93 x2,Heat seeking short range air to air missiles.  Internally stowed.,赤外線誘導式の短距離空対空ミサイル。 内部に搭載されています。
 AGM-145 Ballista x3_fullName,Full equip name of: AGM-145 Ballista x3,AGM-145 Ballista x3,AGM-145 バリスタ x3
-AGM-145 Ballista x3_description,Item description of: AGM-145 Ballista x3,"Small anti-tank missiles with advanced optics, ""fire and forget"", and smart self-targeting technology. Can be fired without line of sight to the designated target point, and will acquire hostile targets automatically.",高度な光学系、""撃ち放し""、スマートセルフターゲティング技術を搭載した小型対戦車ミサイル x3。指定されたターゲットポイントへの視線が無くても発射でき、敵のターゲットを自動的にロックします。
+AGM-145 Ballista x3_description,Item description of: AGM-145 Ballista x3,"Small anti-tank missiles with advanced optics, ""fire and forget"", and smart self-targeting technology. Can be fired without line of sight to the designated target point, and will acquire hostile targets automatically.","高度な光学系、""""撃ち放し""""、スマートセルフターゲティング技術を搭載した小型対戦車ミサイル x3。指定されたターゲットポイントへの視線が無くても発射でき、敵のターゲットを自動的にロックします。"
 ASF-SRM-RA x3_fullName,Full equip name of: ASF-SRM-RA x3,ASF-SRM-RA x3,
 ASF-SRM-RA x3_description,Item description of: ASF-SRM-RA x3,A rack of three older rear-aspect heat-seeking anti-air missiles.,古いリアアスペクト赤外線誘導式空対空ミサイル x3
+Backstop_fullName,Full equip name of: Backstop,Backstop,
+Backstop_description,Item description of: Backstop,Standard semi-active radar-guided surface to air missile.,
 ASMRM-1 x1_fullName,Full equip name of: ASMRM-1 x1,ASMRM-1 x1,
 ASMRM-1 x1_description,Item description of: ASMRM-1 x1,"Older, medium range semi-active radar air to air missile. Requires radar lock until intercept.",古い中距離セミアクティブレーダー誘導式空対空ミサイル。着弾までレーダーロックが必要です。
 AIM-9E Sidewinder_fullName,Full equip name of: AIM-9E Sidewinder,AIM-9E Sidewinder,AIM-9E サイドワインダー
@@ -1044,7 +1059,7 @@ Mk-82AIR High Drag Bomb x1_fullName,Full equip name of: Mk-82AIR High Drag Bomb 
 Mk-82AIR High Drag Bomb x1_description,Item description of: Mk-82AIR High Drag Bomb x1,Standard un-guided 500lb bomb. Deploys an inflatable drag chute to slow descent for low altitude bombing.,標準的な500ポンド無誘導爆弾。低空爆撃のためにドラッグシュートを展開して降下を遅らせる。
 ASF-SRM-RA x1_fullName,Full equip name of: ASF-SRM-RA x1,ASF-SRM-RA x1,
 ASF-SRM-RA x1_description,Item description of: ASF-SRM-RA x1,An older rear-aspect heat-seeking anti-air missile.,古いリアアスペクト赤外線誘導式空対空ミサイル
-Mk.82 Bomb x4_fullName,Full equip name of: Mk.82 Bomb x4,Mk.82 Bomb x4,Mk.82 爆弾 x4,
+Mk.82 Bomb x4_fullName,Full equip name of: Mk.82 Bomb x4,Mk.82 Bomb x4,Mk.82 爆弾 x4
 Mk.82 Bomb x4_description,Item description of: Mk.82 Bomb x4,Four standard un-guided 500lb bombs.,標準的な500ポンド無誘導爆弾
 ASMRM-7 x8 Internal_fullName,Full equip name of: ASMRM-7 x8 Internal,ASMRM-7 x8 Internal,
 ASMRM-7 x8 Internal_description,Item description of: ASMRM-7 x8 Internal,Medium range radar guided air to air missile. Missiles are stowed internally to improve stealth and aerodynamics.,レーダー誘導式中距離空対空ミサイル。ステルス性と空力を向上させるために内部に搭載されています。
@@ -3563,8 +3578,7 @@ ah94-tutorials:ah94tut_startup:-808588756,Text from a tutorial.,Right Starter ON
 ah94-tutorials:ah94tut_startup:368229976,Text from a tutorial.,"Great, now both engines are fired up and running stable at idle.",素晴らしい！これで両方のエンジンが起動し、アイドリングで安定した運転をするようになりました。
 ah94-tutorials:ah94tut_startup:1013008207,Text from a tutorial.,Power Lever FLIGHT,パワーレバー FLIGHT
 ah94-tutorials:ah94tut_startup:-440988520,Text from a tutorial.,Watch Rotor RPM,RPM確認
-ah94-tutorials:ah94tut_startup:-942756284,Text from a tutorial.,"You don't need to worry about
- applying the the proper throttle to maintain rotor RPM.","あまりRPMを気にする必要はありません。
+ah94-tutorials:ah94tut_startup:-942756284,Text from a tutorial.,"You don't need to worry about applying the the proper throttle to maintain rotor RPM.","あまりRPMを気にする必要はありません。
  ロータースピードを維持するために適切なスロットルが適用されます。"
 ah94-tutorials:ah94tut_startup:963997311,Text from a tutorial.,Just leave the power lever in the flight position and the system handles it for you.,パワーレバーをフライトポジションにしておくだけで、システムが自動で処理してくれます。
 ah94-tutorials:ah94tut_startup:-1751880937,Text from a tutorial.,APU OFF,APU OFF
