@@ -33,7 +33,7 @@ ButtonText_857740,UI Text,Load,ロード
 ButtonText_856918,UI Text,Save,セーブ
 helmVisorInteractable_857720,VR Interactable,Visor,バイザー
 helmNVGInteractable_856016,VR Interactable,NVG,暗視装置
-PendingText_857928,UI Text,in progress...,
+PendingText_857928,UI Text,in progress...,進行中
 CompleteText_856172,UI Text,COMPLETE,成功
 MissionText_855910,UI Text,"MISSION
 ",ミッション
@@ -51,12 +51,12 @@ DnIcon_859440,VR Interactable,Scroll Down,スクロールダウン
 BottomIcon_857190,VR Interactable,To Bottom,末尾へ
 SaveToDiskText_857640,VR Interactable,Save Flight Log,ログを保存
 completionTimeLabel_-10687514,UI Text,Completion Time:,完了時間:
-releaseLabel_859238,UI Text,RELEASE,
+releaseLabel_859238,UI Text,RELEASE,リリース
 AirspeedLabel_857044,UI Text,SPEED,速度
 Label_858112,UI Text,TILT,傾き
-Label_856174,UI Text,HULL,
+Label_856174,UI Text,HULL,機体
 VertVelLabel_857254,UI Text,VERT,垂直
-ASLText_858014,UI Text,ASL,
+ASLText_858014,UI Text,ASL,海抜
 RDRAltText_858872,UI Text,RDR,
 Text_857542,UI Text,[ COLLISION      WARNING ],[ 警告  衝突 ]
 Text_859692,UI Text,[ STALL          WARNING ],[ 警告  失速 ]
@@ -65,43 +65,44 @@ HudBrakeLock_858050,UI Text,[ BRAKE LOCK],[ ブレーキロック ]
 Label_164444,HUD unit label (g-force),G,
 Label_168976,HUD unit label (mach),M,
 Label_857238,UI Text,"HVR
-ALT",
-Label_857834,UI Text,BRAKE,
+ALT","ホバー
+高度"
+Label_857834,UI Text,BRAKE,ブレーキ
 Text_859476,UI Text,-[ CHECK GEAR ]-,
 Text_703132,UI Text,PULL UP!,
 visorButtonInteractable_855374,VR Interactable,Toggle Visor,バイザー切替
 nvgButtonInteractable_859612,VR Interactable,Toggle NVG,暗視装置切替
 HUDTintKnob_858060,VR Interactable,HUD Tint,HUDを暗くする
-HUDSpeedUnitsButton_858304,VR Interactable,Airspeed Units,エア速度単位
+HUDSpeedUnitsButton_858304,VR Interactable,Airspeed Units,対気速度単位
 SpeedUnitsLabel_858142,UI Text,TODO,
 ClrWptButton_859478,VR Interactable,Clear Waypoint,ウェイポイント解除
 MasterCautionInteractable_855702,VR Interactable,Clear Cautions,警告解除
-AltitudeModeInteractable_859776,VR Interactable,Toggle Altitude Mode,ALTモード切替
-headingAPButton_858104,VR Interactable,Heading Hold,進行方位を保持
+AltitudeModeInteractable_859776,VR Interactable,Toggle Altitude Mode,高度モード切替
+headingAPButton_858104,VR Interactable,Heading Hold,方位保持
 altitudeAPButton_855514,VR Interactable,Altitude Hold,高度保持
 hoverAPButton_858476,VR Interactable,Hover Mode,ホバーモード
-offAPButton_857466,VR Interactable,All AP Off,全オートパイロットOFF
+offAPButton_857466,VR Interactable,All AP Off,全APオフ
 navAPButton_855348,VR Interactable,Navigation Mode,ナビゲーションモード
-hudPowerInteractable_855558,VR Interactable,HUD Power,HUD電源
-hmcsPowerInteractable_856320,VR Interactable,HMCS Power,HMCS電源
-HUDBrightKnob_855728,VR Interactable,HUD Brightness,HUD輝度
-HUDDeclutterKnob_858778,VR Interactable,HUD Declutter,HUD表示の簡略
+hudPowerInteractable_855558,VR Interactable,HUD Power,HUD 電源
+hmcsPowerInteractable_856320,VR Interactable,HMCS Power,HMCS 電源
+HUDBrightKnob_855728,VR Interactable,HUD Brightness,HUD 輝度
+HUDDeclutterKnob_858778,VR Interactable,HUD Declutter,HUD 簡略表示
 leftEngineSwitchInteractable_858214,VR Interactable,Left Engine,左エンジン
-coverSwitchInteractable_leftEngine_858864,VR Interactable,Switch Cover,スイッチカバー（エンジン）
+coverSwitchInteractable_leftEngine_858864,VR Interactable,Switch Cover,スイッチカバー
 rightEngineSwitchInteractable_857464,VR Interactable,Right Engine,右エンジン
-apuSwitchInteractable_855502,VR Interactable,Auxilliary Power,APU
+apuSwitchInteractable_855502,VR Interactable,Auxilliary Power,補助電源
 Label (1)_857692,UI Text,AV-42,
 GearInteractable_856386,VR Interactable,Landing Gear,ランディングギア
 FlapsInteractable_855734,VR Interactable,Flaps,フラップ
 HookInteractable_858430,VR Interactable,Arrestor Hook,アレスティングフック
-CatHookInteractable_859182,VR Interactable,Launch Bar,カタパルトバー
+CatHookInteractable_859182,VR Interactable,Launch Bar,ローンチバー
 masterArmSwitchInteractable_859944,VR Interactable,Master Arm Switch,マスターアームスイッチ
-MasterJettisonButtonInteractable_856040,VR Interactable,Jettison,投棄（Jettison）
-JettisonAllInteractable_860130,VR Interactable,JettisonAll,全て投棄（JettisonAll）
-JettisonEmptyInteractable_860042,VR Interactable,Jettison Empty,投棄（JettisonEmpty）
+MasterJettisonButtonInteractable_856040,VR Interactable,Jettison,投棄
+JettisonAllInteractable_860130,VR Interactable,JettisonAll,全て投棄
+JettisonEmptyInteractable_860042,VR Interactable,Jettison Empty,
 ClearJettisonInteractable_856154,VR Interactable,Clear Jettison Marks,投棄マーク解除
 Label (1)_858442,UI Text,QUICK START,
-QuickStartInteractable_857660,VR Interactable,Quickstart Engines,クイックスタート　エンジン
+QuickStartInteractable_857660,VR Interactable,Quickstart Engines,クイックスタート エンジン
 Label (1)_860014,UI Text,QUICK FLY,
 QuickFlyButton_857886,VR Interactable,QuickFly,クイックフライ
 Text_856940,UI Text,"VR MFCD
@@ -111,8 +112,8 @@ SaveToDiskText_857186,UI Text,Save to Disk,ディスクに保存
 Title_856292,UI Text,"Spectator
 Camera",
 AutoFOVText_857446,UI Text,AutoFOV,自動FOV
-Title_859956,UI Text,HARDPOINTS,装　備　
-JettisonText_859418,UI Text,ARMED,
+Title_859956,UI Text,HARDPOINTS,装 備
+JettisonText_859418,UI Text,ARMED,武装
 JettisonText_857292,UI Text,JETTISON,投棄
 BackText_856938,UI Text,BACK,戻る
 Title_859674,UI Text,ARAD,
@@ -124,14 +125,15 @@ and press
 [menu]
 to recenter","
 シートに正しく座って
-VRコントローラーの
 メニューボタンを
 押すとリセットされます"
 saveText_858168,UI Text,SAVE,セーブ
 availableLabel_856046,UI Text,"SAVES
-AVAILABLE:",セーブ
+AVAILABLE:","セーブ
+使用残回数:"
 NoQsText_856498,UI Text,"QUICKSAVE
-NOT AVAILABLE",クイックセーブ
+NOT AVAILABLE","クイックセーブ
+使用不可"
 lastSaveLabel_859496,UI Text,Last Save:,最後のセーブ:
 loadText_858842,UI Text,LOAD,ロード
 text_855302,UI Text,SAVED,セーブ完了
@@ -145,23 +147,26 @@ DelGrp_856478,UI Text,"DELETE
 GROUP","グループ
 削除"
 NewGrp_859040,UI Text,"NEW
-GROUP",グループ
+GROUP","新しい
+グループ"
 pathLabel_857952,UI Text,PATH,経路
 NoSignalText_859948,UI Text,NO SIGNAL,信号なし
-Text_857566,UI Text,AREA,
-Text_856980,UI Text,POINT,
+Text_857566,UI Text,AREA,エリア
+Text_856980,UI Text,POINT,ポイント
 Text_856590,UI Text,IFF:FRIEND,IFF:味方
 Text_859178,UI Text,IFF:FOE,IFF:敵
 HeadModeText_855284,UI Text,"USE HELMET VISOR/HMCS
 
-AUGMENTED VIEW ENABLED",
-gimbalLimit_858032,UI Text,GIMBAL LIMIT,GIMBAL LIMIT
-hmdViewStatus_856300,UI Text,HMD,HMD
+AUGMENTED VIEW ENABLED","バイザー/HMCSを使用
+
+拡張ビュー有効"
+gimbalLimit_858032,UI Text,GIMBAL LIMIT,ジンバルリミット
+hmdViewStatus_856300,UI Text,HMD,
 titleText_456206,UI Text,FLARES,フレア
 titleText_455052,UI Text,CHAFF,チャフ
 eqNameText_456958,UI Text,COUNTERMEASURE SYSTEM,妨害システム
-ReleaseRateTitle_456222,UI Text,RELEASE RATE,散布速度
-releaseModeTxt_455244,UI Text,RELEASE MODE,散布モード
+ReleaseRateTitle_456222,UI Text,RELEASE RATE,射出速度
+releaseModeTxt_455244,UI Text,RELEASE MODE,射出モード
 eqNameText_930458,UI Text,VEHICLE OPTIONS,機体設定
 AltModeLabel_953220,UI Text,UNITS,単位
 unitOptsText_702428,UI Text,FUEL,燃料
@@ -171,11 +176,10 @@ eqNameText_701656,UI Text,UNIT OPTIONS,単位設定
 Text_954730,UI Text,"Sit comfortably
 and press menu
 (top button)
-to recenter","
-シートに正しく座って
-VRコントローラーの
-メニューボタンを
-押すとリセットされます"
+to recenter","シートに快適になるよう座り
+メニューボタン
+(トップボタン)
+を押すとリセットされます"
 AltModeLabel_701584,UI Text,Alt Units,高度単位
 DistModeLabel_954954,UI Text,Dist Units,距離単位
 SpeedModeLabel_955738,UI Text,Speed Units,速度単位
@@ -186,14 +190,14 @@ BingoAdjustTitle_-439040,UI Text,BINGO LEVEL,燃料警告レベル
 eqNameText_701974,UI Text,ALTITUDE WARNINGS,高度警告
 title_702284,UI Text,MIN ALTITUDE,最低高度
 title_701018,UI Text,MAX ALTITUDE,最高高度
-modeTitle_702386,UI Text,MODE,
+modeTitle_702386,UI Text,MODE,モード
 MFD1PowerInteractable_856422,VR Interactable,MFD Power (Left),MFD電源（左）
 MFDBrightnessKnob_858866,VR Interactable,MFD Brightness,MFD輝度
 MFD2PowerInteractable_856476,VR Interactable,MFD Power (Center),MFD電源（中）
 MFD3PowerInteractable_857594,VR Interactable,MFD Power (Right),MFD電源（右）
 CrsKnobInteractable_858264,VR Interactable,Course Set,コース設定
 Text_859426,UI Text,CRS,
-APHeadingKnobInteractable_859312,VR Interactable,AP Heading Set,オートパイロット・ヘディングセット
+APHeadingKnobInteractable_859312,VR Interactable,AP Heading Set,AP方位セット
 RWRText_856538,UI Text,"R
 W
 R",
@@ -203,16 +207,20 @@ estTimeLabel_856372,UI Text,EST TIME,飛行可能時間
 estDistLabel_856044,UI Text,EST DISTANCE,飛行可能距離
 twrLabel_858560,UI Text,MAX TWR,最高推重比
 RWRButton_857352,VR Interactable,RWR,レーダー警報装置
-powButtonMMFDLeft_859524,VR Interactable,Power (MMFD Left),MMFD電源（左）
+powButtonMMFDLeft_859524,VR Interactable,Power (MMFD Left),電源（MMFD左）
 FuelText_858474,UI Text,"F
 U
 E
-L",
+L","燃
+
+料"
 InfoLabel_857034,UI Text,"I
 N
 F
-O",
-powButtonMMFDRight_855584,VR Interactable,Power (MMFD Right),MMFD電源（右）
+O","情
+
+報"
+powButtonMMFDRight_855584,VR Interactable,Power (MMFD Right),電源（MMFD右）
 infoButton_859450,VR Interactable,Fuel Info,燃料情報
 fuelButton_855474,VR Interactable,Fuel,燃料
 mainBattSwitchInteractable_858600,VR Interactable,Main Battery,メインバッテリー
@@ -231,9 +239,9 @@ PitchSASInteractable_855582,VR Interactable,Toggle Pitch Assist,ピッチアシ�
 YawSASInteractable_859920,VR Interactable,Toggle Yaw Assist,ヨーアシスト切替
 RollSASInteractable_859788,VR Interactable,Toggle Roll Assist,ロールアシスト切替
 PitchAutoTrimInteractable_859614,VR Interactable,Toggle Pitch Trim,ピッチトリム切替
-GLimitSwitchInteractable_860152,VR Interactable,Toggle G-Limiter,G-リミッター切替
+GLimitSwitchInteractable_860152,VR Interactable,Toggle G-Limiter,Gリミッター切替
 FuelPort_860018,VR Interactable,Fuel Port,給油口
-RCSModeInteractable_858010,VR Interactable,RCS Mode,姿勢制御モード（RCS）
+RCSModeInteractable_858010,VR Interactable,RCS Mode,RCSモード
 RadioVolumeKnob_859248,VR Interactable,Radio Volume,ラジオ音量
 PrevButton_857278,VR Interactable,Prev Song,前の曲
 NextButton_858006,VR Interactable,Next Song,次の曲

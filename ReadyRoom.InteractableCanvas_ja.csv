@@ -4,7 +4,7 @@ SelectPilotButton_745718,VR Interactable,Select Existing Pilot,パイロット�
 Text_742314,UI Text,Select Pilot,パイロット選択
 NewPilotButton_745346,VR Interactable,Create New Pilot,新しいパイロット作成
 Text_742072,UI Text,New Pilot,新しいパイロット
-QuitButton_740624,VR Interactable,Quit Game,
+QuitButton_740624,VR Interactable,Quit Game,ゲームを終了
 Text_742474,UI Text,QUIT,終了
 SettingsButton_747456,VR Interactable,Settings,設定
 Text_740102,UI Text,"Settings
@@ -27,8 +27,8 @@ Text_743158,UI Text,Edit name,名前入力
 BackButton_744184,VR Interactable,Back To Main,メイン画面へ
 Text_742734,UI Text,Back,戻る
 StartButton_745400,VR Interactable,Start New Pilot,新しいパイロットで開始
-Text_744692,UI Text,Start,
-InvalidName_740436,UI Text,[ Invalid Name ],[無効な名前]
+Text_744692,UI Text,Start,スタート
+InvalidName_740436,UI Text,[ Invalid Name ],[ 無効な名前 ]
 DeleteButton_740016,VR Interactable,Delete Pilot,パイロットを削除
 PILOTS_745628,UI Text,Pilots,PILOTS
 NextPilotButton_747706,VR Interactable,Next Pilot,次のパイロット
@@ -38,11 +38,11 @@ Text_740860,UI Text,"Yes, Delete",削除
 NoDeleteButton_743870,VR Interactable,Cancel Delete,キャンセル
 Text_745554,UI Text,"No, keep",そのまま
 PILOTS_740912,UI Text,NO PILOTS,パイロットがいません
-PilotName_742564,UI Text,BDynamics,BDynamics
+PilotName_742564,UI Text,BDynamics,
 Pilot name_744616,UI Text,Pilot name,パイロット名
 EditPilotColorsButton_741944,VR Interactable,Edit Colors,色の変更
-WorkshopBrowserButton_747088,VR Interactable,Steam Workshop Browser,Steamワークショップ
-Text_509830,UI Text,Steam Workshop,
+WorkshopBrowserButton_747088,VR Interactable,Steam Workshop Browser,Steamワークショップブラウザ
+Text_509830,UI Text,Steam Workshop,Steamワークショップ
 VEHICLES_747786,UI Text,VEHICLES,機体
 Text_743784,UI Text,SELECT VEHICLE,機体の選択
 NextVehButton_747140,VR Interactable,Next Vehicle,次の機体
@@ -54,13 +54,13 @@ PrevButton_-4973282,VR Interactable,Previous Tutorial,前のチュートリア�
 SelectButton_-645320,VR Interactable,Select Tutorial,チュートリアル選択
 Text_-645448,UI Text,Select,選択
 Text_-645234,UI Text,Radar,レーダー
-Text_-645284,UI Text,F/A-26B,F/A-26B
+Text_-645284,UI Text,F/A-26B,
 ScrollInteractable_-645206,VR Interactable,Scroll,スクロール
 Name_747128,UI Text,VTOL VR - Steam Workshop Browser,VTOL VR - Steamワークショップ
 ScenariosButton_746792,VR Interactable,Scenarios,シナリオ
 CampaignsButton_745636,VR Interactable,Campaigns,キャンペーン
 Text_746638,UI Text,Maps,マップ
-Name (1)_747156,UI Text,STEAM WORKSHOP,
+Name (1)_747156,UI Text,STEAM WORKSHOP,STEAMワークショップ
 Placeholder_742056,UI Text,search...,検索…
 ButtonSearch_745798,VR Interactable,Search,検索
 SortOrderDropdown_742490,VR Interactable,Sort Dropdown,ドロップダウンソート
@@ -73,7 +73,7 @@ F-45AButton_744238,VR Interactable,F-45A,F-45A
 VotesTab_743458,VR Interactable,Votes,投票
 FavesTab_744050,VR Interactable,Favorited,お気に入り
 VotesTxt_747534,UI Text,Faves,お気に入り
-SubsTab_746936,VR Interactable,Subscriptions,登録
+SubsTab_746936,VR Interactable,Subscriptions,サブスクリプション
 VotesTxt_740374,UI Text,Subs,
 NewTab_744656,VR Interactable,New,
 VotesTxt_740444,UI Text,Newest,最新
@@ -81,9 +81,8 @@ ButtonPrevious_746534,VR Interactable,Previous Page,前のページ
 ButtonNext_743488,VR Interactable,Next Page,次のページ
 Title (1)_741416,UI Text,"Loading 
 steam workshop
-missions","ローディング
-steamワークショップ
-任務（ミッション）"
+missions","Steamワークショップ
+ミッションを読込中"
 Name_742760,UI Text,Error,エラー
 ErrorOkayButton_976098,VR Interactable,Okay,OK
 Title_-645276,UI Text,"Select Campaign
@@ -109,7 +108,7 @@ Campaigns & missions...","ローディング
 Text_-645730,UI Text,No missions found,ミッションが見つかりません
 Title_-645562,UI Text,Select mission,ミッションの選択
 CompletedObject_-645176,UI Text,Completed,完了
-GrantedBudget_-645910,UI Text,Granted Budget: $500,獲得予算: $500
+GrantedBudget_-645910,UI Text,Granted Budget: $500,獲得した予算: $500
 RTrainingTitle_-645174,UI Text,"Recommended Training: ",推奨のトレーニング：
 Text_-645912,UI Text,FULL VERSION ONLY,完全版のみ
 Text_-645908,UI Text,UNDER CONSTRUCTION,作成中
@@ -122,15 +121,15 @@ Text_732526,UI Text,MISSIONS,ミッション
 TrainingButton_-645594,VR Interactable,Training,トレーニング
 Text_-645732,UI Text,TRAINING,トレーニング
 BackButton_-645608,VR Interactable,Back to Campaigns,キャンペーンに戻る
-triggerToSkip_-645838,UI Text,hold trigger to skip,トリガーを引きっぱなしでスキップします
+triggerToSkip_-645838,UI Text,hold trigger to skip,トリガーを引きっぱなしにしてスキップします
 titleText_-645888,UI Text,"New Training Mission: ",新しいトレーニングミッション：
-MISSION BRIEFING_744042,UI Text,MISSION BRIEFING,ミッションの説明
+MISSION BRIEFING_744042,UI Text,MISSION BRIEFING,ミッションブリーフィング
 NextNoteButton_743764,VR Interactable,Next Note,次のページ
 Text_742706,UI Text,Next,次のページ
 PrevNoteButton_745262,VR Interactable,Previous Note,前のページ
 Text_744920,UI Text,Previous,前のページ
 FlyButton_740588,VR Interactable,Fly Mission,ミッション開始
-Text_743562,UI Text,Configure,配置
+Text_743562,UI Text,Configure,設定
 Text_746416,UI Text,Customize Pilot,パイロットのカスタマイズ
 Label_740562,UI Text,suit,フライトスーツ
 HueUpButton_742114,VR Interactable,Hue Right,右へ
@@ -143,12 +142,12 @@ ValUpButton_747676,VR Interactable,Value Up,明るさアップ
 ValDownButton_747772,VR Interactable,Value Down,明るさダウン
 Label (3)_740798,UI Text,Brightness,明るさ
 Label_741936,UI Text,vest,ベスト
-Label_740984,UI Text,G-Suit,G-スーツ
+Label_740984,UI Text,G-Suit,Gスーツ
 Label_746928,UI Text,Straps,ストラップ
 Label_743676,UI Text,skin,肌の色
 AcceptButton_745474,VR Interactable,Accept Changes,変更を適用
 Text_740032,UI Text,Accept,適用
-Button_740788,VR Interactable,Interactable,Interactable
+Button_740788,VR Interactable,Interactable,インタラクティブ
 DecrButton_746112,VR Interactable,Decrease,減少
 IncrButton_743848,VR Interactable,Increase,増加
 PrevSettingsPageButton_745814,VR Interactable,Prev Page,前のページ
@@ -157,7 +156,7 @@ RevertSettingsButton_745510,VR Interactable,Revert Settings,設定の復元
 Text_744170,UI Text,Revert,復元
 Text_743510,UI Text,Close,閉じる
 BindingsButton_740066,VR Interactable,Open Bindings Menu,バインドメニューを開く
-Text_746038,UI Text,Bindings,
+Text_746038,UI Text,Bindings,バインド
 OpenWingmenButton_742898,VR Interactable,Wingman Voices,ウィングマンの音声
 GameCat_692110,VR Interactable,Game,ゲーム
 ControlsCat_696240,VR Interactable,Controls,コントロール
@@ -183,7 +182,7 @@ InvertButton_731022,VR Interactable,Invert Axis,軸の反転
 Text_724774,UI Text,Invert,反転
 Text_746160,UI Text,Apply,適用
 Title_744764,UI Text,Launch Editor?,エディタを起動しますか？
-Title (1)_740936,UI Text,The mission editor will run on your monitor.,ミッションエディタはVR内ではなく、デスクトップ上に表示されます。
+Title (1)_740936,UI Text,The mission editor will run on your monitor.,ミッションエディタはデスクトップ上に表示されます。
 OkayButton_742216,VR Interactable,Launch Editor,エディタ起動
 BackButton_507224,VR Interactable,Back to Main Menu,メインメニューに戻る
-Title (1)_740580,UI Text,The map editor will run on your monitor.,マップエディタはVR内ではなく、デスクトップ上に表示されます。
+Title (1)_740580,UI Text,The map editor will run on your monitor.,マップエディタはデスクトップ上に表示されます。

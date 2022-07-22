@@ -1,6 +1,12 @@
 Key,Description,en,ja
-throttleInteractable_915500,VR Interactable,Throttle,スロットル
 ejectInteractable_911648,VR Interactable,Eject,緊急脱出
+neckPTT_2582164,VR Interactable,Radio PTT,
+ButtonText_952188,UI Text,"Recenter
+seat","シートを
+真ん中に戻す"
+ButtonText_954842,UI Text,"exit
+mission","ミッション
+退出"
 ButtonText_915708,UI Text,"Recenter
 seat","シートを
 真ん中に戻す"
@@ -15,7 +21,7 @@ ButtonText_915630,UI Text,Load,ロード
 ButtonText_913374,UI Text,Save,セーブ
 helmVisorInteractable_913784,VR Interactable,Visor,バイザー
 helmNVGInteractable_916002,VR Interactable,NVG,暗視装置
-PendingText_912704,UI Text,in progress...,
+PendingText_912704,UI Text,in progress...,進行中
 CompleteText_915034,UI Text,COMPLETE,成功
 MissionText_913392,UI Text,"MISSION
 ",ミッション
@@ -43,60 +49,63 @@ AdjBackButton_916410,VR Interactable,Adjust Back,後ろへ
 AdjUpButton_912256,VR Interactable,Adjust Up,上へ
 AdjDownButton_915128,VR Interactable,Adjust Down,下へ
 ToggleAdjustJoyInteractable_911908,VR Interactable,Toggle Auto Adjust,位置の自動調整
-Text_915188,UI Text,AUTO,
-releaseLabel_912934,UI Text,RELEASE,
+Text_915188,VT Text,AUTO,自動
+releaseLabel_912934,UI Text,RELEASE,リリース
 loalText_299878,HUD when lock-on-after-launch AGM mode is active,LOAL,
 Label_915698,UI Text,SPEED,速度
-Label_916182,UI Text,HULL,
-Label_913628,UI Text,VERT,
-ASLText_915472,UI Text,ASL,
+Label_916182,UI Text,HULL,機体
+Label_913628,UI Text,VERT,垂直
+ASLText_915472,UI Text,ASL,海抜
 RDRAltText_911650,UI Text,RDR,
-Text_912910,UI Text,[ COLLISION      WARNING ],[警告     衝突]
-Text_915452,UI Text,[ STALL          WARNING ],[警告     失速]
-Label_914952,UI Text,HDG,
-HudBrakeLock_912300,UI Text,[ BRAKE LOCK ],[ブレーキロック]
+Text_912910,UI Text,[ COLLISION      WARNING ],[ 警告     衝突 ]
+Text_915452,UI Text,[ STALL          WARNING ],[ 警告     失速 ]
+Label_914952,UI Text,HDG,方位
+HudBrakeLock_912300,UI Text,[ BRAKE LOCK ],[ ブレーキロック ]
 Label_280582,HUD Unit label (g-force),G,
 Label_280922,HUD Unit label (mach),M,
 Text_913428,UI Text,-[ CHECK GEAR ]-,
 Label_913926,UI Text,"HVR
-ALT",
-Label_912198,UI Text,BRAKE,
+ALT","ホバー
+高度"
+Label_912198,UI Text,BRAKE,ブレーキ
 Label_916010,UI Text,"RDR
-BORESIGHT",レーダー
-HudWingFold_914040,UI Text,[ WING FOLD ],
-Label_912968,UI Text,TILT,
+BORESIGHT","レーダー
+ボアサイト"
+HudWingFold_914040,UI Text,[ WING FOLD ],[ 翼の折り畳み ]
+Label_912968,UI Text,TILT,傾き
 Text_409944,UI Text,PULL UP!,
-PresetsLabel_912374,UI Text,LAYOUT SET,
+PresetsLabel_912374,UI Text,LAYOUT SET,ﾚｲｱｳﾄｾｯﾄ
 PortalPresetButton1_913502,VR Interactable,Preset 1,プリセット1
 PortalPresetButton2_914226,VR Interactable,Preset 2,プリセット2
 PortalPresetButton3_913676,VR Interactable,Preset 3,プリセット3
 PortalPresetButton4_912162,VR Interactable,Preset 4,プリセット4
 Saved_911584,UI Text,SAVED,セーブ完了
 Text_914576,UI Text,"LAUNCH
-WARNING",
+WARNING","発射
+警告"
 Text_412452,UI Text,MWS,
 MastCautFlash_915446,VR Interactable,Dismiss,警告解除
 Text_912896,UI Text,"MASTER
-CAUTION",
+CAUTION",警告
 Text_930208,UI Text,AB,
-Text_410182,UI Text,SHOOT,
+Text_410182,UI Text,SHOOT,発射
 ClrWptButton_911890,VR Interactable,Clear Waypoint,ウェイポイント削除
-txt_914312,UI Text,CLR WPT,
-AltModeButton_914516,VR Interactable,Altitude Mode,
-txt_914352,UI Text,ALT MODE,
+txt_914312,UI Text,CLR WPT,WPT 削除
+AltModeButton_914516,VR Interactable,Altitude Mode,高度モード
+txt_914352,UI Text,ALT MODE,高度ﾓｰﾄﾞ
 ChaffLabel_410848,UI Text,CHAFF,チャフ
 FlareLabel_412694,UI Text,FLARE,フレア
 FuelInfoButton_413878,VR Interactable,Show Fuel,燃料表示
 txt_411628,UI Text,FUEL,燃料
 AutoPilotDisplayButton_409942,VR Interactable,Show Autopilot,オートパイロット表示
-txt_412918,UI Text,AUTOPILOT,オートパイロット
-AltAPButton_411832,VR Interactable,Altitude AP,オートパイロット高度保持
+txt_412918,UI Text,AUTOPILOT,ｵｰﾄﾊﾟｲﾛｯﾄ
+AltAPButton_411832,VR Interactable,Altitude AP,AP高度保持
 txt_413182,UI Text,ALT,高度
-HeadingAPButton_414054,VR Interactable,Heading AP,オートパイロット機首方位
-NavAPButton_411372,VR Interactable,Nav Waypoint AP,オートパイロット　ナビウェイポイント
+HeadingAPButton_414054,VR Interactable,Heading AP,AP機首方位
+NavAPButton_411372,VR Interactable,Nav Waypoint AP,APナビウェイポイント
 txt_410280,UI Text,NAV,ナビ
-APOffButton_413514,VR Interactable,AP Off,オートパイロットOFF
-txt_413324,UI Text,OFF,
+APOffButton_413514,VR Interactable,AP Off,AP オフ
+txt_413324,UI Text,OFF,オフ
 HeadingRight_415110,VR Interactable,Heading Right,右へ旋回
 HeadingLeft_411474,VR Interactable,Heading Left,左へ旋回
 AltUp_410754,VR Interactable,Alt +,高度 +
@@ -119,73 +128,49 @@ ShowSubsButton_916154,TSD window config,Show Subportals,サブポータルを出
 MaximizeButton_915918,TSD window config,Maximize,最大化
 UnMaximizeButton_911968,TSD window config,Return,戻る
 SubButtonLeft_912568,VR Interactable,Interactable,
-NoSignalText_913810,UI Text,NO SIGNAL,信号なし
-Text_915098,UI Text,AREA,
-Text_915864,UI Text,POINT,
-Text_915242,UI Text,IFF:FRIEND,IFF:味方
-Text_914872,UI Text,IFF:FOE,IFF:敵
-HeadModeText_915908,UI Text,"USE HELMET VISOR/HMCS
-
-AUGMENTED VIEW ENABLED",
-gimbalLimit_913148,UI Text,GIMBAL LIMIT,
-ModeButton_914818,VR Interactable,Targeting Mode,ターゲティングモード
-tgpMode (1)_912938,UI Text,MODE,
-SensButton_914330,VR Interactable,Sensor Mode,センサーモード
-txt_912372,UI Text,SENS,センサー
-SOI Button_915502,VR Interactable,Toggle SOI,これを操作対象とする
+RadarPwrButton_911576,VR Interactable,Radar Power,レーダー電源
+txt_3677856,UI Text,RDR PWR,ﾚｰﾀﾞｰ電源
+SOI Button_915502,VR Interactable,Toggle SOI,SOI切替
 txt_913014,UI Text,SOI,
-HeadButton_914894,VR Interactable,HMD Mode,HMDモード（バイザーに表示）
-tgpMode_914458,UI Text,HEAD,
-FwdButton_912778,VR Interactable,Reset Forward,TGPの視界を前方にする
-txt_916362,UI Text,FWD,
-ZoomInButton_915158,VR Interactable,Zoom +,拡大
-ZoomOutButton_914052,VR Interactable,Zoom -,縮小
-GPS-S Button_915296,VR Interactable,GPS Send,GPS位置を一覧に入れる
-txt_913488,UI Text,GPS-S,
-GPS-A Button_915520,VR Interactable,GPS Acquire,GPS位置情報を読込む
-txt_913352,UI Text,GPS-A,
-ToWptButton_914462,VR Interactable,To Waypoint,ウェイポイントへ
-txt_914632,UI Text,TO WPT,
-LIM Button_-7676696,VR Interactable,Toggle Limits Overlay,リミットオーバーレイの切替
-txt_409782,UI Text,LIM,
 ResetButton_912504,VR Interactable,Reset View,ビューリセット
 txt_914802,UI Text,RESET,リセット
+ZoomInButton_915158,VR Interactable,Zoom +,拡大
+ZoomOutButton_914052,VR Interactable,Zoom -,縮小
 txt_911592,UI Text,"Z
 O
 O
-M",ズ
+M","ズ
+|
+ム"
 AltUpButton_915856,VR Interactable,Target Altitude Up,目標高度 +
 AltDownButton_915176,VR Interactable,Target Altitude Down,目標高度 -
-GPS-S Button_912284,VR Interactable,Send GPS Target,GPSターゲットを一覧表に入れる
-FuelWPButton_913116,VR Interactable,Set Fuel Waypoint,給油ウェイポイントセット
-txt_394682,UI Text,FUEL,
-RTBWPButton_915740,VR Interactable,Set RTB Waypoint,RTBウェイポイントセット
+GPS-S Button_912284,VR Interactable,Send GPS Target,GPSターゲット送信
+txt_913488,UI Text,GPS-S,
+FuelWPButton_913116,VR Interactable,Set Fuel Waypoint,給油ウェイポイント設定
+txt_394682,UI Text,FUEL,燃料
+RTBWPButton_915740,VR Interactable,Set RTB Waypoint,RTBウェイポイント設定
 txt_911618,UI Text,RTB,
-ObjWpButton_915190,VR Interactable,Set Objective Waypoint,ミッション目標ウェイポイントセット
+ObjWpButton_915190,VR Interactable,Set Objective Waypoint,目標ウェイポイント設定
 txt_912214,UI Text,OBJ,
 ModeButton_931214,VR Interactable,Toggle Rotation Mode,ローテーションモード切替
-Subsized_393072,UI Text,NAV,
+tgpMode (1)_912938,UI Text,MODE,モード
+Subsized_393072,UI Text,NAV,ナビ
 PrevButton_911806,VR Interactable,Previous Objective,前の地点
 txt_915846,UI Text,PREV,前
 NextButton_912640,VR Interactable,Next Objective,次の地点
 txt_911854,UI Text,NEXT,次
-WptButton_915876,VR Interactable,Set Waypoint,ウェイポイントセット
-txt_912902,UI Text,SET WPT,
+WptButton_915876,VR Interactable,Set Waypoint,ウェイポイント設定
+txt_912902,UI Text,SET WPT,WPT設定
 MissionText_913922,UI Text,OBJECTIVES,目標
-PrevPageButton_912958,VR Interactable,Prev Page,前のページ
-NextPageButton_915536,VR Interactable,Next Page,次のページ
-BackButton_393686,VR Interactable,Back,戻る
-txt_912290,UI Text,CANCEL,キャンセル
-Title_915426,UI Text,COMMS,通信
 Title_915150,UI Text,Spectator Camera,
 PreviewBtn_912556,VR Interactable,Toggle Preview,プレビューの切替
 txt_914652,UI Text,PREVIEW,プレビュー
 AutoFOVText_913340,UI Text,AutoFOV,自動FOV
 StartButton_912580,VR Interactable,Start,スタート
-txt_929168,UI Text,START,スタート
+txt_929168,UI Text,START,開始
 StopButton_916412,VR Interactable,Stop,ストップ
-txt_391880,UI Text,STOP,ストップ
-ModeButton_912112,VR Interactable,Switch Modes,ビューの切替モード
+txt_391880,UI Text,STOP,停止
+ModeButton_912112,VR Interactable,Switch Modes,モード切替
 RandBtn_913264,VR Interactable,Random Modes,ランダムモード
 txt_912466,UI Text,RAND,ランダム
 FovBtn_915130,VR Interactable,Change FOV,視野角変更
@@ -199,40 +184,9 @@ SSBtn_911784,VR Interactable,4k Screenshot,4K スクリーンショット
 txt_915184,UI Text,SS,
 Subsized_911678,UI Text,SPEC CAM,
 ToggleCMSModeButton_317010,VR Interactable,Toggle Mode,モード切替
-ScaleButton_393616,VR Interactable,Zoom +,拡大
-ScaleButton (1)_410406,VR Interactable,Zoom -,縮小
-braLabel_916212,UI Text,"B
-R
-A",
-MHLabel_911876,UI Text,"M
-H",
-SlewTGPButton_912226,VR Interactable,Slew EOTS,
-txt_916166,UI Text,EOTS,
-RadarPwrButton_911576,VR Interactable,Radar Power,レーダー電源
-txt_914320,UI Text,POWER,電源
-RadarAngleButton_913540,VR Interactable,Sweep Angle,スイープ角度
-txt_912826,Radar angle label,ANGLE,
-RadarSettingsButton_914450,VR Interactable,Radar Settings,レーダー設定
-Text_916224,UI Text,RADAR,レーダー
-RadarPowerButton_911976,VR Interactable,Show Allies,友軍表示
-txt_914476,UI Text,ALLY,友軍
-HUDFoeButton_411098,VR Interactable,Show Foes,敵を表示
-txt_414072,TSD HUD filter,FOE,敵
-HUDAirButton_411548,VR Interactable,Show Air,上空表示
-txt_410524,TSD HUD filter,AIR,空中
-HUDGroundButton_411390,VR Interactable,Show Ground,地上表示
-txt_412394,TSD HUD filter,GRND,地上
-HUDMissileButton_414516,VR Interactable,Show Missiles,ミサイル表示
-txt_412204,TSD HUD filter,MSSL,ミサイル
-HUDSettingsButton_414214,VR Interactable,HUD Settings,HUD設定
-txt_915874,UI Text,HUD,
-typeText_913752,UI Text,GPS,
-braLabel_912824,UI Text,"B
-R",
-Subsized_915030,UI Text,TSD,
 eqNameText_930458,UI Text,VEHICLE OPTIONS,機体設定
 JoyModeText_916046,VR Interactable,Joystick Mode,ジョイスティックモード
-JoyModeText_txt_-2288018,UI Text,JOYSTICK MODE,
+JoyModeText_txt_-2288018,UI Text,JOYSTICK MODE,ジョイスティックモード
 JoySensText_-6385166,VR Interactable,Joystick Sensitivity,ジョイスティックの感度
 JoySensText_txt_-2287244,UI Text,JOY SENS,JOY感度
 UnitsButton_2553924,VR Interactable,Unit Options,単位設定
@@ -246,7 +200,7 @@ DistModeLabel_913734,VR Interactable,Distance Units,距離単位
 DistModeLabel_txt_-2238442,UI Text,Dist Units,距離単位
 SpeedModeLabel_913492,VR Interactable,Speed Units,速度単位
 SpeedModeLabel_txt_-2239208,UI Text,Speed Units,速度単位
-BackButton_929148,VR Interactable,Return to SMS,機器管理（SMS）に戻る
+BackButton_929148,VR Interactable,Return to SMS,SMSに戻る
 txt_916098,UI Text,RETURN,戻る
 eqNameText_415092,UI Text,ALTITUDE WARNINGS,高度警告
 title_414582,UI Text,MIN ALTITUDE,最低高度
@@ -258,28 +212,29 @@ down_403400,VR Interactable,Max Alt -,最大高度設定 -
 ToggleModeButton_400002,VR Interactable,Toggle Altitude Mode,高度モード切替
 Subsized_914204,UI Text,OPTION,設定
 wpnInfoInteractable_913170,VR Interactable,Config,設定
-txt_916366,UI Text,MASTER SAFE,
-BayOverridesButton_930920,VR Interactable,Weapon Bay Door Overrides,武器のハッチコントロール
+txt_916366,UI Text,MASTER SAFE,マスターセーフ
+BayOverridesButton_930920,VR Interactable,Weapon Bay Door Overrides,
 txt_930770,UI Text,"BAY DOOR
-OVERRIDES",
+OVERRIDES","兵器倉ドア
+オーバーライド"
 FuelConfigButton_-387262,VR Interactable,Fuel Configuration,燃料設定
 txt_413290,Fuel Config Button,"FUEL
 CONFIG","燃料
 設定"
 ModeButton_-387576,VR Interactable,Action Mode,アクションモード
-CMSConfigButton_414354,VR Interactable,CMS Configuration,CMS設定
+CMSConfigButton_414354,VR Interactable,CMS Configuration,CMS 設定
 txt_409780,CMS Config Button,CMS,
-armedInteractable_-50098,SMS equip arming button,Toggle Arming,
+armedInteractable_-50098,SMS equip arming button,Toggle Arming,武装の切り替え
 jettisonText_152168,SMS equip jettison button,JETTISON,投棄
 jettisonInteractable_-49280,SMS equip jettison button,Toggle Jettison,投棄の切替
 eqNameText_413016,UI Text,"WEAPON BAY DOOR
-OVERRIDES",
-SideBayLeftOverride_930680,VR Interactable,Toggle Bay Override,
-optionLabel_929256,UI Text,SIDE BAY LEFT,
-optionLabel_930046,UI Text,SIDE BAY RIGHT,
-optionLabel_930498,UI Text,MAIN BAY LEFT,
-optionLabel_929734,UI Text,MAIN BAY RIGHT,
-optionLabel_930724,UI Text,ALL BAYS,
+OVERRIDES","兵器倉 ドアオーバーライド"
+SideBayLeftOverride_930680,VR Interactable,Toggle Bay Override,兵器倉オーバーライド切替
+optionLabel_929256,UI Text,SIDE BAY LEFT,側面倉左
+optionLabel_930046,UI Text,SIDE BAY RIGHT,側面倉右
+optionLabel_930498,UI Text,MAIN BAY LEFT,主倉左
+optionLabel_929734,UI Text,MAIN BAY RIGHT,主倉右
+optionLabel_930724,UI Text,ALL BAYS,全倉
 eqNameText_414772,UI Text,FUEL CONFIG,燃料設定
 BingoAdjustTitle_-439040,UI Text,BINGO LEVEL,
 BingoUp_-438640,VR Interactable,Bingo +,燃料警告量の設定 +
@@ -294,8 +249,8 @@ Chaff_396040,VR Interactable,Toggle Chaff,チャフ切替
 titleText_412036,UI Text,CHAFF,チャフ
 Flares_395820,VR Interactable,Toggle Flares,フレア切替
 titleText_319618,UI Text,FLARES,フレア
-txt_413196,CMS Release Mode,RELEASE MODE,散布モード
-RateAdjustTitle_321828,UI Text,RELEASE RATE,散布レート
+txt_413196,CMS Release Mode,RELEASE MODE,射出モード
+RateAdjustTitle_321828,UI Text,RELEASE RATE,射出レート
 RateUp_318734,VR Interactable,Rate +,レート +
 RateDown_317472,VR Interactable,Rate -,レート -
 Subsized_912990,UI Text,SMS,
@@ -306,42 +261,12 @@ R
 A",
 OffObj_913268,UI Text,RADAR OFF,レーダーオフ
 FOVText_916096,UI Text,BORESIGHT,ボアサイト
+txt_914320,UI Text,POWER,電源
+Text_916224,UI Text,RADAR,レーダー
 FOVText ButtonLabel_912576,VR Interactable,Toggle Scan Angle,スキャン角度切替
 FOVText ButtonLabel_txt_-99372,UI Text,SCAN ANGLE,スキャン角度
 RangePlusButton_914332,VR Interactable,Range +,範囲 +
 RangeMinusButton_912506,VR Interactable,Range -,範囲 -
-Text_914552,UI Text,GAME MENU,ゲームメニュー
-Play Area Text_399346,UI Text,PLAY AREA,プレイエリア
-RecenterButton_913736,VR Interactable,Recenter Seat,シート位置リセット
-txt_913580,UI Text,RECENTER,
-txt_911972,UI Text,MISSION,ミッション
-txt_913088,UI Text,RESTART,リスタート
-RestartButton_911636,VR Interactable,Quicksave Menu,クイックセーブメニュー
-txt_410560,UI Text,QUICKSAVE,クイックセーブ
-ExitButton_912780,VR Interactable,Exit Mission,ミッション退出
-txt_916092,UI Text,EXIT,退出
-FlightLog Button_414124,VR Interactable,Flight Log,フライトログ
-txt_409254,UI Text,LOG,ログ
-Text_916022,UI Text,"Sit comfortably
-and press
-[menu]
-to recenter","
-シートに正しく座って
-VRコントローラーの
-メニューボタンを
-押すとリセットされます"
-txt_410172,UI Text,Save to disk,ディスクに保存
-saveText_-13568996,VR Interactable,Quicksave,クイックセーブ
-saveText_txt_-100236,quicksave button label,SAVE,セーブ
-availableLabel_956208,UI Text,"SAVES
-AVAILABLE:","セーブ
-使用可:"
-NoQsText_955496,UI Text,"QUICKSAVE
-NOT AVAILABLE","クイックセーブ
-使用不可"
-lastSaveLabel_954396,UI Text,Last Save:,最後のセーブ:
-loadText_-13568992,VR Interactable,Quickload,クイックロード
-loadText_txt_-101050,quickload button label,LOAD,ロード
 TgtsTitle_916300,UI Text,TARGETS,ターゲット
 UpIcon_912786,VR Interactable,Prev Target,前のターゲット
 DnIcon_914006,VR Interactable,Next Target,次のターゲット
@@ -363,11 +288,112 @@ NewGrp_txt_-104494,new gps group button label,"NEW
 GROUP","新しい
 グループ"
 pathLabel_915232,gps group path mode tooltip,Toggle Path Mode,経路モード切替
-pathLabel_txt_-105576,gps group path mode label,PATH,経路
-gpsWptButton_txt_-106506,set gps point waypoint label,SET WPT,ウェイポイントセット
+gpsWptButton_txt_-106506,set gps point waypoint label,SET WPT,SET WPT
+SendData_-6646600,Send GPS group to friendlies in multiplayer,Send Data,データ送信
+SendData_txt_-6646598,delete gps target button label,"SEND
+DATA",データ送信
 Subsized_911596,UI Text,"GPS
 TARGETS","GPS
 ターゲット"
+NoSignalText_913810,UI Text,NO SIGNAL,信号なし
+Text_915098,UI Text,AREA,
+Text_915864,UI Text,POINT,
+Text_915242,UI Text,IFF:FRIEND,IFF:味方
+Text_914872,UI Text,IFF:FOE,IFF:敵
+HeadModeText_915908,UI Text,"USE HELMET VISOR/HMCS
+
+AUGMENTED VIEW ENABLED","バイザー/HMCSを使用
+
+拡張ビュー有効"
+gimbalLimit_913148,UI Text,GIMBAL LIMIT,ジンバルリミット
+ModeButton_914818,VR Interactable,Targeting Mode,ターゲティングモード
+SensButton_914330,VR Interactable,Sensor Mode,センサーモード
+txt_912372,UI Text,SENS,センサ
+HeadButton_914894,VR Interactable,HMD Mode,HMDモード
+tgpMode_914458,UI Text,HEAD,
+FwdButton_912778,VR Interactable,Reset Forward,TGPの視界を前方にする
+txt_916362,UI Text,FWD,
+GPS-S Button_915296,VR Interactable,GPS Send,GPS 送信
+GPS-A Button_915520,VR Interactable,GPS Acquire,GPS 読込
+txt_913352,UI Text,GPS-A,
+ToWptButton_914462,VR Interactable,To Waypoint,ウェイポイントへ
+txt_914632,UI Text,TO WPT,
+LIM Button_-7676696,VR Interactable,Toggle Limits Overlay,リミットオーバーレイの切替
+txt_409782,UI Text,LIM,
+MarkerButton_5516312,VR Interactable,Laser Marker,
+txt_5601166,Laser marker button text,MARK,
+ScaleButton_393616,VR Interactable,Zoom +,拡大
+ScaleButton (1)_410406,VR Interactable,Zoom -,縮小
+braLabel_916212,UI Text,"B
+R
+A",
+MHLabel_911876,UI Text,"M
+H",
+SlewTGPButton_912226,VR Interactable,Slew EOTS,EOTSに送信
+txt_916166,UI Text,EOTS,
+RadarAngleButton_913540,VR Interactable,Sweep Angle,スイープ角度
+txt_912826,Radar angle label,ANGLE,
+RadarPointButton_5515842,VR Interactable,Toggle Point Track,
+txt_5602762,Radar point lock label,POINT,
+RadarSettingsButton_914450,VR Interactable,Radar Settings,レーダー設定
+RadarPowerButton_911976,VR Interactable,Show Allies,友軍表示
+txt_914476,UI Text,ALLY,友軍
+HUDFoeButton_411098,VR Interactable,Show Foes,敵を表示
+txt_414072,TSD HUD filter,FOE,敵
+HUDAirButton_411548,VR Interactable,Show Air,上空表示
+txt_410524,TSD HUD filter,AIR,空中
+HUDGroundButton_411390,VR Interactable,Show Ground,地上表示
+txt_412394,TSD HUD filter,GRND,地上
+HUDMissileButton_414516,VR Interactable,Show Missiles,ミサイル表示
+txt_412204,TSD HUD filter,MSSL,ミサイル
+HUDSettingsButton_414214,VR Interactable,HUD Settings,HUD設定
+txt_915874,UI Text,RESET,
+typeText_913752,UI Text,GPS,
+braLabel_912824,UI Text,"B
+R",
+ResetViewButton_-34018362,VR Interactable,Reset View,
+Subsized_915030,UI Text,TSD,
+PrevPageButton_912958,VR Interactable,Prev Page,前のページ
+NextPageButton_915536,VR Interactable,Next Page,次のページ
+BackButton_393686,VR Interactable,Back,戻る
+txt_912290,UI Text,CANCEL,キャンセル
+Title_915426,UI Text,COMMS,通信
+Text_914552,UI Text,GAME MENU,ゲームメニュー
+Play Area Text_399346,UI Text,PLAY AREA,プレイエリア
+RecenterButton_913736,VR Interactable,Recenter Seat,シート位置リセット
+txt_913580,UI Text,RECENTER,
+txt_911972,UI Text,MISSION,ミッション
+txt_913088,UI Text,NETWORK,リスタート
+RestartButton_911636,VR Interactable,Quicksave Menu,クイックセーブメニュー
+txt_410560,UI Text,QUICKSAVE,クイックセーブ
+ExitButton_912780,VR Interactable,Exit Mission,ミッション退出
+txt_916092,UI Text,EXIT,退出
+FlightLog Button_414124,VR Interactable,Flight Log,フライトログ
+txt_409254,UI Text,LOG,ログ
+Text_916022,UI Text,"Sit comfortably
+and press
+[menu]
+to recenter","
+シートに快適になるよう座り
+VRコントローラーの
+[メニュー]ボタンを
+押すとリセットされます"
+PlayersButton_-29308950,VR Interactable,View Players,
+playerstxt_-29308946,UI Text,PLAYERS,
+NetworkButton_-29379578,VR Interactable,Network Analytics,
+txt_410172,UI Text,Save to disk,ディスクに保存
+saveText_-13568996,VR Interactable,Quicksave,クイックセーブ
+saveText_txt_-100236,quicksave button label,SAVE,セーブ
+availableLabel_956208,UI Text,"SAVES
+AVAILABLE:","セーブ
+使用残回数:"
+NoQsText_955496,UI Text,"QUICKSAVE
+NOT AVAILABLE","クイックセーブ
+使用不可"
+lastSaveLabel_954396,UI Text,Last Save:,最後のセーブ:
+loadText_-13568992,VR Interactable,Quickload,クイックロード
+loadText_txt_-101050,quickload button label,LOAD,ロード
+netAnalyticsTtle_-29380092,UI Text,vt net analytics,
 MFD1PowerInteractable_912850,VR Interactable,MFD Power,MFD 電源
 MFDBrightnessKnob_916384,VR Interactable,MFD Brightness,MFD 輝度
 HMCSPowerInteractable_914036,VR Interactable,HMD Power,HMD 電源
@@ -378,11 +404,22 @@ raiseSeatInter_915664,VR Interactable,Raise Seat,シート上げる
 lowerSeatInter_915488,VR Interactable,Lower Seat,シート下げる
 visorButtonInteractable_-7865812,VR Interactable,Toggle Visor,バイザー切替
 nvgButtonInteractable_-7865816,VR Interactable,Toggle NVG,暗視装置切替
+clearButton_4853888,Clear joined/left notifications,Clear,
+info_userLeft,UI Text,has left!,退出しました!
+membersTitle_6548730,UI Text,Members,
+ToggleMute_-118434,VR Interactable,Toggle Mute,ミュート切替
+Kick_-113880,VR Interactable,Kick,
+kickText_-113882,UI Text,Kick,
+Ban_-116098,VR Interactable,Ban,
+banText_-116094,UI Text,Ban,
+ScrollInteractable_-645206,VR Interactable,Scroll,スクロール
+ErrorOKButton_-8378960,VR Interactable,Okay,
+okText_-8378962,UI Text,Cancel,
+Deny_1950982,VR Interactable,Cancel,キャンセル
 GearInteractable_911944,VR Interactable,Landing Gear,ランディングギア
-FlapsInteractable_914836,VR Interactable,Flaps,フラップ
-WingSwitchInteractable_915584,VR Interactable,Wing Fold,ウィング折り畳み
+WingSwitchInteractable_915584,VR Interactable,Wing Fold,翼の折り畳み
 JettisonSwitchInteractable_916390,VR Interactable,Jettison Switch,投棄スイッチ
-vtAPButton_916132,VR Interactable,Vertical Control AP Mode,オートパイロット垂直コントロールモード
+vtAPButton_916132,VR Interactable,Vertical Control AP Mode,AP垂直コントロールモード
 parkingBrakeInteractable_913796,VR Interactable,Parking Brake,パーキングブレーキ
 LandingLightInteractable_916204,VR Interactable,Landing Lights,ランディングライト
 StrobLightInteractable_914704,VR Interactable,Strobe Lights,ストロボライト
@@ -400,10 +437,15 @@ HookInteractable_914364,VR Interactable,Arrestor Hook,アレスティングフ�
 engineSwitchInteractable_914400,VR Interactable,Engine,エンジン
 mainBattSwitchInteractable_916302,VR Interactable,Main Battery,メインバッテリー
 apuSwitchInteractable_916246,VR Interactable,Auxilliary Power,APU
-CommsVolumeKnob_915406,VR Interactable,Comm Radio Volume,通信音量
-MicPowerInteractable_913644,VR Interactable,Microphone,マイク
-Text_382470,UI Text,"GAME WINDOW
+CommsVolumeKnob_953158,VR Interactable,Comm Radio Volume,
+Text_95182,UI Text,"GAME WINDOW
 NOT IN FOCUS","ゲームウィンドウが
 フォーカスされていません"
+RadioInteractable_2581494,VR Interactable,Radio Mode,
+RadioChannelInteractable_2581172,VR Interactable,Radio Channel,
+CommsVolumeKnobMP_-18677120,VR Interactable,Team Radio Volume,
 CanopyInteractable_914266,VR Interactable,Canopy Switch,キャノピースイッチ
 CamcorderObj_385876,VR Interactable,Move Camera,ムーブカメラ
+throttleInteractable_915500,VR Interactable,Throttle,スロットル
+Label (1)_956422,UI Text,QUICK START,
+Label (1)_954266,UI Text,QUICK FLY,
