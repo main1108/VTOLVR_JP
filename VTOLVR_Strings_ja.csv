@@ -351,8 +351,8 @@ prev,,Prev,前へ
 ripple_single,Label when a rapid-fire weapon is set to only fire one shot at a time.,SINGLE,単発
 wmui_ripple,Option title for selecting a rocket/missile's ripple (rapid fire) rate.,RIPPLE,連射
 wmui_rippleTooltip,Tooltip for button to cycle a weapon's ripple (rapid fire) rate.,Cycle Ripple Rates,連射速度サイクル
-s_masterArmed,Master armed label in EQUIP MFD page,MASTER ARMED,武装
-s_masterDisarmed,Master disarmed label in EQUIP MFD page,MASTER DISARMED,武装解除
+s_masterArmed,Master armed label in EQUIP MFD page,MASTER ARMED,武装  
+s_masterDisarmed,Master disarmed label in EQUIP MFD page,MASTER DISARMED,武装解除  
 s_eq_armed,Armed label for single equip in EQUIP MFD page,ARMED,武装
 s_eq_disarmed,Disarmed label for single equip in EQUIP MFD page,DISARMED,武装解除
 s_eq_jettison,Jettison label for single equip in EQUIP MFD page,JETTISON,投棄
@@ -1605,8 +1605,8 @@ AIM-120D Advanced Radar Missile_fullName,Full equip name of: AIM-120D Advanced R
 AIM-120D Advanced Radar Missile_description,Item description of: AIM-120D Advanced Radar Missile,"Radar guided medium range air to air missile.
 ",レーダー誘導式の中距離空対空ミサイル。
 AV-42C_description,Short description of playable vehicle AV-42C,"""Kestrel"" Multi-role VTOL aircraft. Tilting jet nozzles give it the ability to take off and land vertically or horizontally. Large cargo bay and multiple weapon mounts allow for both transport and attack missions.","""ケストレル"" はマルチロールVTOL機です。 ティルトエンジンノズルにより、垂直方向に離着陸したり、水平方向に飛んだりすることができます。 大型の貨物倉と複数の武器マウントにより、輸送と攻撃の両方の任務を遂行することができます。"
-F/A-26B_description,Short description of playable vehicle F/A-26B,"""Wasp"" Carrier based air-superiority fighter that can also be configured for ground attack roles.",ワスプ は艦載型の制空戦闘機であり、対地攻撃の役割を持つ構成も可能です。
-F-45A_description,Short description of playable vehicle F-45A,"""Ghost"" Stealthy, single-engine, VTOL/STOVL capable aircraft with four internal bays. Optional external hardpoints can be used to increase carrying capacity when stealth is not needed.",ゴースト は単発のVTOL/STOVL ステルス戦闘機で、4つのウェポンベイを備えています。 ステルス性能を必要としない場合は、外部ハードポイントを使用して武器の積載量を増やすことができます。
+F/A-26B_description,Short description of playable vehicle F/A-26B,"""Wasp"" Carrier based air-superiority fighter that can also be configured for ground attack roles.","""ワスプ"" は艦載型の制空戦闘機であり、対地攻撃の役割を持つ構成も可能です。"
+F-45A_description,Short description of playable vehicle F-45A,"""Ghost"" Stealthy, single-engine, VTOL/STOVL capable aircraft with four internal bays. Optional external hardpoints can be used to increase carrying capacity when stealth is not needed.","""ゴースト"" は単発のVTOL/STOVL ステルス戦闘機で、4つのウェポンベイを備えています。 ステルス性能を必要としない場合は、外部ハードポイントを使用して武器の積載量を増やすことができます。"
 AH-94_description,Short description of playable vehicle AH-94,"The AH-94 ""Dragonfly"" is a twin-turboshaft attack helicopter with a tandem cockpit for two pilots.",AH-94は、2人のパイロットが乗るタンデムコックピットを持つツインターボシャフトの攻撃ヘリコプターです。
 campaign_av42cTheIsland_name,Name of a campaign.,The Island,島「The Island」
 campaign_av42cTheIsland_description,Description of a campaign.,The Island campaign.,島「The Island」キャンペーン
@@ -1924,7 +1924,7 @@ F/A-26B:j4Campaign:j4:obj_0:name,A mission objective name,July 4,七月四日
 F/A-26B:j4Campaign:j4:obj_0:info,Mission objective info.,Defend the city from the enemy attack.,敵の攻撃から街を守ってください。
 j4Campaign_j4_b0,Text from a mission briefing.,Happy Independence day!,独立記念日おめでとう！
 j4Campaign_j4_b1,Text from a mission briefing.,"An unidentified flying object has been detected over the island.  It appears to be giving off the same signals as those recorded near the recent attacks on mainland cities, so we're assuming hostility.  Find it and destroy it at all cost.",島の上空にＵＦＯが出現しました。そこから発した信号は、先日の本土都市への攻撃の際に近くで記録されたものと同じだったようで、敵対的なものと判断しました。 発見して全力で破壊してください。
-campaign_fa26-opDesertCobra_name,Name of a campaign.,Operation: Desert Cobra,砂漠の蛇作戦
+campaign_fa26-opDesertCobra_name,Name of a campaign.,Operation: Desert Cobra,砂漠の毒蛇作戦
 campaign_fa26-opDesertCobra_description,Description of a campaign.,"A short campaign for the F/A-26B based around mountainous desert regions. ",山間部の砂漠地帯を舞台とするF/A-26B用の短いキャンペーン。
 fa26-opDesertCobra:mission1_name,Name of a mission.,Base Defense,基地防衛
 fa26-opDesertCobra:mission1_description,Description of a mission.,Defend the airbase supply depots from the incoming enemy attack.,航空基地の施設を敵の攻撃から守ってください。

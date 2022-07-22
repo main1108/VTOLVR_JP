@@ -68,7 +68,7 @@ Label_857238,UI Text,"HVR
 ALT","ホバー
 高度"
 Label_857834,UI Text,BRAKE,ブレーキ
-Text_859476,UI Text,-[ CHECK GEAR ]-,
+Text_859476,UI Text,-[ CHECK GEAR ]-,-[ ギアを確認 ]-
 Text_703132,UI Text,PULL UP!,
 visorButtonInteractable_855374,VR Interactable,Toggle Visor,バイザー切替
 nvgButtonInteractable_859612,VR Interactable,Toggle NVG,暗視装置切替
@@ -101,9 +101,9 @@ MasterJettisonButtonInteractable_856040,VR Interactable,Jettison,投棄
 JettisonAllInteractable_860130,VR Interactable,JettisonAll,全て投棄
 JettisonEmptyInteractable_860042,VR Interactable,Jettison Empty,
 ClearJettisonInteractable_856154,VR Interactable,Clear Jettison Marks,投棄マーク解除
-Label (1)_858442,UI Text,QUICK START,
+Label (1)_858442,UI Text,QUICK START,クイックスタート
 QuickStartInteractable_857660,VR Interactable,Quickstart Engines,クイックスタート エンジン
-Label (1)_860014,UI Text,QUICK FLY,
+Label (1)_860014,UI Text,QUICK FLY,クイックフライ
 QuickFlyButton_857886,VR Interactable,QuickFly,クイックフライ
 Text_856940,UI Text,"VR MFCD
 1.0
