@@ -58,16 +58,16 @@ Label_856174,UI Text,HULL,機体
 VertVelLabel_857254,UI Text,VERT,垂直
 ASLText_858014,UI Text,ASL,海抜
 RDRAltText_858872,UI Text,RDR,
-Text_857542,UI Text,[ COLLISION      WARNING ],[ 警告  衝突 ]
-Text_859692,UI Text,[ STALL          WARNING ],[ 警告  失速 ]
-Label_857754,UI Text,HDG,
+Text_857542,UI Text,[ COLLISION      WARNING ],[  警  告     衝  突  ]
+Text_859692,UI Text,[ STALL          WARNING ],[  警  告     失  速  ]
+Label_857754,UI Text,HDG,方位
 HudBrakeLock_858050,UI Text,[ BRAKE LOCK],[ ブレーキロック ]
 Label_164444,HUD unit label (g-force),G,
 Label_168976,HUD unit label (mach),M,
 Label_857238,UI Text,"HVR
 ALT","ホバー
 高度"
-Label_857834,UI Text,BRAKE,ブレーキ
+Label_857834,UI Text,BRAKE,ﾌﾞﾚｰｷ
 Text_859476,UI Text,-[ CHECK GEAR ]-,-[ ギアを確認 ]-
 Text_703132,UI Text,PULL UP!,
 visorButtonInteractable_855374,VR Interactable,Toggle Visor,バイザー切替
@@ -112,12 +112,12 @@ SaveToDiskText_857186,UI Text,Save to Disk,ディスクに保存
 Title_856292,UI Text,"Spectator
 Camera",
 AutoFOVText_857446,UI Text,AutoFOV,自動FOV
-Title_859956,UI Text,HARDPOINTS,装 備
+Title_859956,UI Text,HARDPOINTS,
 JettisonText_859418,UI Text,ARMED,武装
 JettisonText_857292,UI Text,JETTISON,投棄
 BackText_856938,UI Text,BACK,戻る
 Title_859674,UI Text,ARAD,
-offTxt_858396,UI Text,RWR OFF,
+offTxt_858396,UI Text,RWR OFF,RWR オフ
 hudModeText_855534,UI Text,DECL,
 Text_856460,UI Text,GAME MENU,ゲームメニュー
 Text_856942,UI Text,"Sit comfortably

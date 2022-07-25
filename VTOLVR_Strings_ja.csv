@@ -48,7 +48,7 @@ vehicleConfig_none,,None,なし
 vehicleConfig_saveLoad,,Save/load,セーブ/ロード
 vehicleConfig_backButton,Return to previous screen,Back,戻る
 equipConfig_noEquips,A label shown in the vehicle configurator when there are no available equipment.,No equipment.,装備なし
-equipConfig_noEquipsDescription,A more descriptive label shown when there is no equipment available.,Equipment for this hardpoint is not yet available.,このハードポイントの機器は現在使用できません
+equipConfig_noEquipsDescription,A more descriptive label shown when there is no equipment available.,Equipment for this hardpoint is not yet available.,このハードポイントの装備は現在使用できません
 vehicleConfig_equipCost,,Cost:,費用：
 vehicleConfig_count,,Count:,数量：
 vehicleConfig_fuel,,FUEL,燃料
@@ -79,7 +79,7 @@ irml_trigUncage,"Option title for IR missiles' seeker to be uncaged by the trigg
 s_seekerMode_0,Label for heatseeker mode,Caged,
 s_seekerMode_1,Label for heatseeker mode,Uncaged,
 s_seekerMode_2,Label for heatseeker mode,Vertical Scan,
-s_seekerMode_3,Label for heatseeker mode,Head Track,ヘッドトラッキング
+s_seekerMode_3,Label for heatseeker mode,Head Track,
 s_seekerMode_4,Label for heatseeker mode,Hard Lock,
 Hydra-70 x19 Rocket Pod_fullName,Full equip name of: Hydra-70 x19 Rocket Pod,Hydra-70 x19 Rocket Pod,Hydra-70 x19 ロケットポッド
 Hydra-70 x19 Rocket Pod_description,Item description of: Hydra-70 x19 Rocket Pod,"A pod carrying a total of 19 high explosive rockets.  Can be fired in single shot mode, or rapid fire (ripple).",19発の高爆発性ロケット弾を搭載したポッド。 単発または速射(リップル)で発射することができます。
@@ -427,7 +427,7 @@ AV-42C_mfd_flyCam:L5,Label for an MFD button (short!).," ",
 AV-42C_mfd_flyCam:L5_tooltip,Tooltip for an MFD button.,Toggle Audio Mode,オーディオモード切替
 AV-42C_mfd_flyCam:R2,Label for an MFD button (short!).,MODE,モード
 AV-42C_mfd_flyCam:R2_tooltip,Tooltip for an MFD button.,Toggle Cam Mode,カメラモード切替
-AV-42C_mfd_flyCam:R3,Label for an MFD button (short!).,LOOK,
+AV-42C_mfd_flyCam:R3,Label for an MFD button (short!).,LOOK,表示
 AV-42C_mfd_flyCam:R3_tooltip,Tooltip for an MFD button.,Toggle Look Mode,表示モードの切替
 AV-42C_mfd_flyCam:R5,Label for an MFD button (short!).," ",
 AV-42C_mfd_flyCam:R5_tooltip,Tooltip for an MFD button.,Toggle Auto-Reset,オートリセットの切替
@@ -600,8 +600,8 @@ sCam_autoReset,S-Cam auto reset view label.,Auto-Reset,自動リセット
 sCam_autoZoomPrefix,"S-Cam auto zoom prefix (Auto 40, etc)",Auto,自動
 sCam_audio,S-Cam audio on/off label,AUDIO,音声
 sCam_tgtMode_0,S-Cam target mode,SELF,セルフ
-sCam_tgtMode_1,S-Cam target mode,MSSL,ミサイル
-sCam_tgtMode_2,S-Cam target mode,TGT,ターゲット
+sCam_tgtMode_1,S-Cam target mode,MSSL,ﾐｻｲﾙ
+sCam_tgtMode_2,S-Cam target mode,TGT,ﾀｰｹﾞｯﾄ
 sCam_random,S-Cam random view mode,Random,ランダム
 sCam_behavior_0,S-Cam behavior,Stationary,据置型
 sCam_behavior_1,S-Cam behavior,FlyAlong,フライトに同行
@@ -1693,7 +1693,7 @@ AV-42C:av42cTheIsland:05_silentIsland:obj_1:name,A mission objective name,Refuel
 AV-42C:av42cTheIsland:05_silentIsland:obj_1:info,Mission objective info.,Allow your Romeo1-1 to refuel.,Romeo1-1 の給油を許可し、空中給油させてください。
 AV-42C:av42cTheIsland:05_silentIsland:obj_2:name,A mission objective name,Refuel 2,空中給油 2
 AV-42C:av42cTheIsland:05_silentIsland:obj_2:info,Mission objective info.,Allow Romeo1-2 to refuel. Then you may refuel yourself if necessary.,Romeo1-2 の給油を許可し、空中給油させてください。必要であれば自分も空中給油してください。
-AV-42C:av42cTheIsland:05_silentIsland:obj_3:name,A mission objective name,Investigate,调查
+AV-42C:av42cTheIsland:05_silentIsland:obj_3:name,A mission objective name,Investigate,調査
 AV-42C:av42cTheIsland:05_silentIsland:obj_3:info,Mission objective info.,Investigate the island.,島の調査
 AV-42C:av42cTheIsland:05_silentIsland:obj_4:name,A mission objective name,Retreat,撤退
 AV-42C:av42cTheIsland:05_silentIsland:obj_4:info,Mission objective info.,Avoid the enemy fleet. Return to the waypoint and await orders.,敵艦隊を避けてください。ウェイポイントまで撤退し、次の命令を待ってください。
